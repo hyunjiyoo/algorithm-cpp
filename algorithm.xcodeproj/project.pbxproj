@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEC67EDD2663A062007CB0E3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC67EDC2663A062007CB0E3 /* main.cpp */; };
 		CEC680AD2663A160007CB0E3 /* virus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680002663A15A007CB0E3 /* virus.cpp */; };
 		CEC680AE2663A160007CB0E3 /* maxdiff_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */; };
 		CEC680AF2663A160007CB0E3 /* maxdiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680032663A15A007CB0E3 /* maxdiff.cpp */; };
@@ -128,7 +127,6 @@
 
 /* Begin PBXFileReference section */
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC67EDC2663A062007CB0E3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
 		CEC680032663A15A007CB0E3 /* maxdiff.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff.cpp; sourceTree = "<group>"; };
@@ -331,7 +329,6 @@
 				CEC6801C2663A15B007CB0E3 /* wine */,
 				CEC6803F2663A15C007CB0E3 /* zero */,
 				CEC6804B2663A15C007CB0E3 /* zoo */,
-				CEC67EDC2663A062007CB0E3 /* main.cpp */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -1026,7 +1023,6 @@
 				CEC680D02663A160007CB0E3 /* serialnum_ws.cpp in Sources */,
 				CEC680EC2663A160007CB0E3 /* fibonacci_2.cpp in Sources */,
 				CEC680B02663A160007CB0E3 /* maxdiff_test.cpp in Sources */,
-				CEC67EDD2663A062007CB0E3 /* main.cpp in Sources */,
 				CEC681012663A160007CB0E3 /* combinationOf6ws.cpp in Sources */,
 				CEC680F12663A160007CB0E3 /* samenum.cpp in Sources */,
 				CEC680D12663A160007CB0E3 /* papercount.cpp in Sources */,
