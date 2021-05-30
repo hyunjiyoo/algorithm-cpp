@@ -16,7 +16,6 @@
 		CEC680B22663A160007CB0E3 /* pq_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680082663A15B007CB0E3 /* pq_ws.cpp */; };
 		CEC680B32663A160007CB0E3 /* pq_minheap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680092663A15B007CB0E3 /* pq_minheap.cpp */; };
 		CEC680B42663A160007CB0E3 /* stoneBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6800B2663A15B007CB0E3 /* stoneBridge.cpp */; };
-		CEC680B52663A160007CB0E3 /* test3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6800C2663A15B007CB0E3 /* test3.cpp */; };
 		CEC680B62663A160007CB0E3 /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6800E2663A15B007CB0E3 /* book.cpp */; };
 		CEC680B72663A160007CB0E3 /* card2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680102663A15B007CB0E3 /* card2.cpp */; };
 		CEC680B82663A160007CB0E3 /* antenna.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680122663A15B007CB0E3 /* antenna.cpp */; };
@@ -55,7 +54,6 @@
 		CEC680D92663A160007CB0E3 /* wildcard_dp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6804A2663A15C007CB0E3 /* wildcard_dp.cpp */; };
 		CEC680DA2663A160007CB0E3 /* zoo_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6804C2663A15C007CB0E3 /* zoo_ws.cpp */; };
 		CEC680DB2663A160007CB0E3 /* zoo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6804D2663A15C007CB0E3 /* zoo.cpp */; };
-		CEC680DC2663A160007CB0E3 /* test2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6804E2663A15D007CB0E3 /* test2.cpp */; };
 		CEC680DD2663A160007CB0E3 /* rich2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680502663A15D007CB0E3 /* rich2.cpp */; };
 		CEC680DE2663A160007CB0E3 /* bridge_com.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680522663A15D007CB0E3 /* bridge_com.cpp */; };
 		CEC680DF2663A160007CB0E3 /* bridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680532663A15D007CB0E3 /* bridge.cpp */; };
@@ -81,7 +79,6 @@
 		CEC680F32663A160007CB0E3 /* roomnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680752663A15E007CB0E3 /* roomnum.cpp */; };
 		CEC680F42663A160007CB0E3 /* fashion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680772663A15E007CB0E3 /* fashion.cpp */; };
 		CEC680F52663A160007CB0E3 /* card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680792663A15E007CB0E3 /* card.cpp */; };
-		CEC680F62663A160007CB0E3 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6807A2663A15E007CB0E3 /* test.cpp */; };
 		CEC680F72663A160007CB0E3 /* carrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6807C2663A15E007CB0E3 /* carrot.cpp */; };
 		CEC680F82663A160007CB0E3 /* wave_seq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC6807E2663A15E007CB0E3 /* wave_seq.cpp */; };
 		CEC680F92663A160007CB0E3 /* rectangle2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680802663A15E007CB0E3 /* rectangle2.cpp */; };
@@ -140,7 +137,6 @@
 		CEC680082663A15B007CB0E3 /* pq_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pq_ws.cpp; sourceTree = "<group>"; };
 		CEC680092663A15B007CB0E3 /* pq_minheap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pq_minheap.cpp; sourceTree = "<group>"; };
 		CEC6800B2663A15B007CB0E3 /* stoneBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stoneBridge.cpp; sourceTree = "<group>"; };
-		CEC6800C2663A15B007CB0E3 /* test3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test3.cpp; sourceTree = "<group>"; };
 		CEC6800E2663A15B007CB0E3 /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = book.cpp; sourceTree = "<group>"; };
 		CEC680102663A15B007CB0E3 /* card2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = card2.cpp; sourceTree = "<group>"; };
 		CEC680122663A15B007CB0E3 /* antenna.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = antenna.cpp; sourceTree = "<group>"; };
@@ -175,12 +171,10 @@
 		CEC680422663A15C007CB0E3 /* triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = triangle.cpp; sourceTree = "<group>"; };
 		CEC680442663A15C007CB0E3 /* star18.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = star18.cpp; sourceTree = "<group>"; };
 		CEC680462663A15C007CB0E3 /* cardunion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cardunion.cpp; sourceTree = "<group>"; };
-		CEC680472663A15C007CB0E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CEC680492663A15C007CB0E3 /* wildcard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wildcard.cpp; sourceTree = "<group>"; };
 		CEC6804A2663A15C007CB0E3 /* wildcard_dp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wildcard_dp.cpp; sourceTree = "<group>"; };
 		CEC6804C2663A15C007CB0E3 /* zoo_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zoo_ws.cpp; sourceTree = "<group>"; };
 		CEC6804D2663A15C007CB0E3 /* zoo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zoo.cpp; sourceTree = "<group>"; };
-		CEC6804E2663A15D007CB0E3 /* test2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test2.cpp; sourceTree = "<group>"; };
 		CEC680502663A15D007CB0E3 /* rich2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rich2.cpp; sourceTree = "<group>"; };
 		CEC680522663A15D007CB0E3 /* bridge_com.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bridge_com.cpp; sourceTree = "<group>"; };
 		CEC680532663A15D007CB0E3 /* bridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bridge.cpp; sourceTree = "<group>"; };
@@ -206,7 +200,6 @@
 		CEC680752663A15E007CB0E3 /* roomnum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roomnum.cpp; sourceTree = "<group>"; };
 		CEC680772663A15E007CB0E3 /* fashion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fashion.cpp; sourceTree = "<group>"; };
 		CEC680792663A15E007CB0E3 /* card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = card.cpp; sourceTree = "<group>"; };
-		CEC6807A2663A15E007CB0E3 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
 		CEC6807C2663A15E007CB0E3 /* carrot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = carrot.cpp; sourceTree = "<group>"; };
 		CEC6807E2663A15E007CB0E3 /* wave_seq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wave_seq.cpp; sourceTree = "<group>"; };
 		CEC680802663A15E007CB0E3 /* rectangle2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rectangle2.cpp; sourceTree = "<group>"; };
@@ -315,7 +308,6 @@
 				CEC680152663A15B007CB0E3 /* quadtree */,
 				CEC6806A2663A15D007CB0E3 /* queue */,
 				CEC680A92663A15F007CB0E3 /* queue2 */,
-				CEC680472663A15C007CB0E3 /* README.md */,
 				CEC6807F2663A15E007CB0E3 /* rectangle */,
 				CEC6806C2663A15E007CB0E3 /* resignation */,
 				CEC680202663A15B007CB0E3 /* rich */,
@@ -328,9 +320,6 @@
 				CEC680432663A15C007CB0E3 /* star18 */,
 				CEC6800A2663A15B007CB0E3 /* stoneBridge */,
 				CEC6801A2663A15B007CB0E3 /* submarine */,
-				CEC6807A2663A15E007CB0E3 /* test.cpp */,
-				CEC6804E2663A15D007CB0E3 /* test2.cpp */,
-				CEC6800C2663A15B007CB0E3 /* test3.cpp */,
 				CEC6805D2663A15D007CB0E3 /* theater */,
 				CEC680642663A15D007CB0E3 /* tile */,
 				CEC680412663A15C007CB0E3 /* triangle */,
@@ -998,7 +987,6 @@
 				CEC680B62663A160007CB0E3 /* book.cpp in Sources */,
 				CEC681022663A160007CB0E3 /* uphill_ws.cpp in Sources */,
 				CEC6810E2663A160007CB0E3 /* clocksync_rv.cpp in Sources */,
-				CEC680F62663A160007CB0E3 /* test.cpp in Sources */,
 				CEC680C32663A160007CB0E3 /* filloil.cpp in Sources */,
 				CEC680E72663A160007CB0E3 /* 123sum_topdown.cpp in Sources */,
 				CEC680F52663A160007CB0E3 /* card.cpp in Sources */,
@@ -1040,7 +1028,6 @@
 				CEC680B02663A160007CB0E3 /* maxdiff_test.cpp in Sources */,
 				CEC67EDD2663A062007CB0E3 /* main.cpp in Sources */,
 				CEC681012663A160007CB0E3 /* combinationOf6ws.cpp in Sources */,
-				CEC680DC2663A160007CB0E3 /* test2.cpp in Sources */,
 				CEC680F12663A160007CB0E3 /* samenum.cpp in Sources */,
 				CEC680D12663A160007CB0E3 /* papercount.cpp in Sources */,
 				CEC680E52663A160007CB0E3 /* theater2.cpp in Sources */,
@@ -1049,7 +1036,6 @@
 				CEC681042663A160007CB0E3 /* binary.cpp in Sources */,
 				CEC680BA2663A160007CB0E3 /* quadtree2.cpp in Sources */,
 				CEC680C92663A160007CB0E3 /* hanoi.cpp in Sources */,
-				CEC680B52663A160007CB0E3 /* test3.cpp in Sources */,
 				CEC680AD2663A160007CB0E3 /* virus.cpp in Sources */,
 				CEC680DD2663A160007CB0E3 /* rich2.cpp in Sources */,
 				CEC681122663A160007CB0E3 /* memset_struct.cpp in Sources */,
