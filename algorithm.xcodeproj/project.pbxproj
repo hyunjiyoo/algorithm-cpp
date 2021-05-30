@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		CE7558832663A3BD00496288 /* palidrome2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558822663A3BD00496288 /* palidrome2.cpp */; };
+		CE7558892663A47000496288 /* twobox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558882663A47000496288 /* twobox.cpp */; };
+		CE75588E2663A48F00496288 /* line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE75588D2663A48F00496288 /* line.cpp */; };
+		CE7558932663A4C100496288 /* set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558922663A4C100496288 /* set.cpp */; };
+		CE7558992663A4EC00496288 /* unordered_set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558982663A4EC00496288 /* unordered_set.cpp */; };
+		CE75589C2663A50300496288 /* unordered_set_reserve.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE75589B2663A50300496288 /* unordered_set_reserve.cpp */; };
+		CE75589F2663A51800496288 /* vector_bs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE75589E2663A51800496288 /* vector_bs.cpp */; };
+		CE7558A22663A52C00496288 /* array_bs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558A12663A52C00496288 /* array_bs.cpp */; };
 		CEC680AD2663A160007CB0E3 /* virus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680002663A15A007CB0E3 /* virus.cpp */; };
 		CEC680AE2663A160007CB0E3 /* maxdiff_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */; };
 		CEC680AF2663A160007CB0E3 /* maxdiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680032663A15A007CB0E3 /* maxdiff.cpp */; };
@@ -128,6 +135,13 @@
 
 /* Begin PBXFileReference section */
 		CE7558822663A3BD00496288 /* palidrome2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palidrome2.cpp; sourceTree = "<group>"; };
+		CE7558882663A47000496288 /* twobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twobox.cpp; sourceTree = "<group>"; };
+		CE75588D2663A48F00496288 /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
+		CE7558922663A4C100496288 /* set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = set.cpp; sourceTree = "<group>"; };
+		CE7558982663A4EC00496288 /* unordered_set.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unordered_set.cpp; sourceTree = "<group>"; };
+		CE75589B2663A50300496288 /* unordered_set_reserve.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unordered_set_reserve.cpp; sourceTree = "<group>"; };
+		CE75589E2663A51800496288 /* vector_bs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector_bs.cpp; sourceTree = "<group>"; };
+		CE7558A12663A52C00496288 /* array_bs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = array_bs.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -255,6 +269,34 @@
 			path = palindrome2;
 			sourceTree = "<group>";
 		};
+		CE7558872663A46200496288 /* twobox */ = {
+			isa = PBXGroup;
+			children = (
+				CE7558882663A47000496288 /* twobox.cpp */,
+			);
+			path = twobox;
+			sourceTree = "<group>";
+		};
+		CE75588C2663A48600496288 /* line */ = {
+			isa = PBXGroup;
+			children = (
+				CE75588D2663A48F00496288 /* line.cpp */,
+			);
+			path = line;
+			sourceTree = "<group>";
+		};
+		CE7558912663A4B000496288 /* symmetricdiff */ = {
+			isa = PBXGroup;
+			children = (
+				CE7558922663A4C100496288 /* set.cpp */,
+				CE7558982663A4EC00496288 /* unordered_set.cpp */,
+				CE75589B2663A50300496288 /* unordered_set_reserve.cpp */,
+				CE75589E2663A51800496288 /* vector_bs.cpp */,
+				CE7558A12663A52C00496288 /* array_bs.cpp */,
+			);
+			path = symmetricdiff;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +316,9 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7558912663A4B000496288 /* symmetricdiff */,
+				CE75588C2663A48600496288 /* line */,
+				CE7558872663A46200496288 /* twobox */,
 				CE7558812663A3A700496288 /* palindrome2 */,
 				CEC680602663A15D007CB0E3 /* 123sum */,
 				CEC680112663A15B007CB0E3 /* antenna */,
@@ -983,6 +1028,7 @@
 				CEC6810C2663A160007CB0E3 /* clocksync_book.cpp in Sources */,
 				CEC680D92663A160007CB0E3 /* wildcard_dp.cpp in Sources */,
 				CEC680C12663A160007CB0E3 /* rich2.cpp in Sources */,
+				CE7558992663A4EC00496288 /* unordered_set.cpp in Sources */,
 				CEC6810B2663A160007CB0E3 /* guitar_ws.cpp in Sources */,
 				CEC680D22663A160007CB0E3 /* dwarf_ws.cpp in Sources */,
 				CEC680DF2663A160007CB0E3 /* bridge.cpp in Sources */,
@@ -1001,6 +1047,7 @@
 				CEC680FD2663A160007CB0E3 /* boardcover_hj.cpp in Sources */,
 				CEC681002663A160007CB0E3 /* combinationOf6.cpp in Sources */,
 				CEC680FA2663A160007CB0E3 /* rectangle.cpp in Sources */,
+				CE75589C2663A50300496288 /* unordered_set_reserve.cpp in Sources */,
 				CEC681142663A160007CB0E3 /* arr_size.cpp in Sources */,
 				CEC680FF2663A160007CB0E3 /* fibonacci.cpp in Sources */,
 				CEC681162663A160007CB0E3 /* queue.cpp in Sources */,
@@ -1009,11 +1056,13 @@
 				CEC680FC2663A160007CB0E3 /* boardcover_rv.cpp in Sources */,
 				CEC680D72663A160007CB0E3 /* cardunion.cpp in Sources */,
 				CEC681082663A160007CB0E3 /* cantorset.cpp in Sources */,
+				CE75588E2663A48F00496288 /* line.cpp in Sources */,
 				CEC680E32663A160007CB0E3 /* fillbox.cpp in Sources */,
 				CEC680BD2663A160007CB0E3 /* submarine.cpp in Sources */,
 				CEC681062663A160007CB0E3 /* binary_ws2.cpp in Sources */,
 				CEC680B42663A160007CB0E3 /* stoneBridge.cpp in Sources */,
 				CEC680FE2663A160007CB0E3 /* boardcover_rv2.cpp in Sources */,
+				CE75589F2663A51800496288 /* vector_bs.cpp in Sources */,
 				CEC680C52663A160007CB0E3 /* change.cpp in Sources */,
 				CEC680B82663A160007CB0E3 /* antenna.cpp in Sources */,
 				CEC680EA2663A160007CB0E3 /* tile_ws.cpp in Sources */,
@@ -1039,6 +1088,7 @@
 				CEC680D12663A160007CB0E3 /* papercount.cpp in Sources */,
 				CEC680E52663A160007CB0E3 /* theater2.cpp in Sources */,
 				CEC681102663A160007CB0E3 /* jumpgame.cpp in Sources */,
+				CE7558932663A4C100496288 /* set.cpp in Sources */,
 				CEC680E62663A160007CB0E3 /* theater.cpp in Sources */,
 				CEC681042663A160007CB0E3 /* binary.cpp in Sources */,
 				CEC680BA2663A160007CB0E3 /* quadtree2.cpp in Sources */,
@@ -1051,7 +1101,9 @@
 				CEC6810A2663A160007CB0E3 /* guitar.cpp in Sources */,
 				CEC680C22663A160007CB0E3 /* busroute.cpp in Sources */,
 				CEC680ED2663A160007CB0E3 /* fibonacci.cpp in Sources */,
+				CE7558A22663A52C00496288 /* array_bs.cpp in Sources */,
 				CEC680D52663A160007CB0E3 /* triangle.cpp in Sources */,
+				CE7558892663A47000496288 /* twobox.cpp in Sources */,
 				CEC680E92663A160007CB0E3 /* 123sum_dp.cpp in Sources */,
 				CE7558832663A3BD00496288 /* palidrome2.cpp in Sources */,
 				CEC680AF2663A160007CB0E3 /* maxdiff.cpp in Sources */,
