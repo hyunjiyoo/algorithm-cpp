@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7558832663A3BD00496288 /* palidrome2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558822663A3BD00496288 /* palidrome2.cpp */; };
 		CEC680AD2663A160007CB0E3 /* virus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680002663A15A007CB0E3 /* virus.cpp */; };
 		CEC680AE2663A160007CB0E3 /* maxdiff_ws.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */; };
 		CEC680AF2663A160007CB0E3 /* maxdiff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC680032663A15A007CB0E3 /* maxdiff.cpp */; };
@@ -126,6 +127,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE7558822663A3BD00496288 /* palidrome2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palidrome2.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -245,6 +247,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE7558812663A3A700496288 /* palindrome2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE7558822663A3BD00496288 /* palidrome2.cpp */,
+			);
+			path = palindrome2;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +274,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7558812663A3A700496288 /* palindrome2 */,
 				CEC680602663A15D007CB0E3 /* 123sum */,
 				CEC680112663A15B007CB0E3 /* antenna */,
 				CEC6805B2663A15D007CB0E3 /* assignment */,
@@ -1042,6 +1053,7 @@
 				CEC680ED2663A160007CB0E3 /* fibonacci.cpp in Sources */,
 				CEC680D52663A160007CB0E3 /* triangle.cpp in Sources */,
 				CEC680E92663A160007CB0E3 /* 123sum_dp.cpp in Sources */,
+				CE7558832663A3BD00496288 /* palidrome2.cpp in Sources */,
 				CEC680AF2663A160007CB0E3 /* maxdiff.cpp in Sources */,
 				CEC680BF2663A160007CB0E3 /* wine_comp.cpp in Sources */,
 				CEC680F32663A160007CB0E3 /* roomnum.cpp in Sources */,
