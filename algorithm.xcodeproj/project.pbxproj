@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE2641F426647D08001E2A7C /* budget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2641EF26647006001E2A7C /* budget.cpp */; };
+		CE2641F82664C4E5001E2A7C /* library.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2641F72664C4E5001E2A7C /* library.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
+		CE2641F72664C4E5001E2A7C /* library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = library.cpp; sourceTree = "<group>"; };
 		CE7558822663A3BD00496288 /* palidrome2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palidrome2.cpp; sourceTree = "<group>"; };
 		CE7558882663A47000496288 /* twobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twobox.cpp; sourceTree = "<group>"; };
 		CE75588D2663A48F00496288 /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
@@ -159,6 +160,14 @@
 			path = budget;
 			sourceTree = "<group>";
 		};
+		CE2641F62664C4D8001E2A7C /* library */ = {
+			isa = PBXGroup;
+			children = (
+				CE2641F72664C4E5001E2A7C /* library.cpp */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
 		CE7558812663A3A700496288 /* palindrome2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +223,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE2641F62664C4D8001E2A7C /* library */,
 				CE2641EE26646FF7001E2A7C /* budget */,
 				CE7558912663A4B000496288 /* symmetricdiff */,
 				CE75588C2663A48600496288 /* line */,
@@ -904,7 +914,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE2641F426647D08001E2A7C /* budget.cpp in Sources */,
+				CE2641F82664C4E5001E2A7C /* library.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
