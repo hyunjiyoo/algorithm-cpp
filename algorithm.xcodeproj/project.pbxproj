@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2641F026647006001E2A7C /* budget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE2641EF26647006001E2A7C /* budget.cpp */; };
 		CE7558832663A3BD00496288 /* palidrome2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558822663A3BD00496288 /* palidrome2.cpp */; };
 		CE7558892663A47000496288 /* twobox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558882663A47000496288 /* twobox.cpp */; };
 		CE75588E2663A48F00496288 /* line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE75588D2663A48F00496288 /* line.cpp */; };
@@ -134,6 +135,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
 		CE7558822663A3BD00496288 /* palidrome2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palidrome2.cpp; sourceTree = "<group>"; };
 		CE7558882663A47000496288 /* twobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twobox.cpp; sourceTree = "<group>"; };
 		CE75588D2663A48F00496288 /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
@@ -261,6 +263,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2641EE26646FF7001E2A7C /* budget */ = {
+			isa = PBXGroup;
+			children = (
+				CE2641EF26647006001E2A7C /* budget.cpp */,
+			);
+			path = budget;
+			sourceTree = "<group>";
+		};
 		CE7558812663A3A700496288 /* palindrome2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +326,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE2641EE26646FF7001E2A7C /* budget */,
 				CE7558912663A4B000496288 /* symmetricdiff */,
 				CE75588C2663A48600496288 /* line */,
 				CE7558872663A46200496288 /* twobox */,
@@ -1098,6 +1109,7 @@
 				CEC681122663A160007CB0E3 /* memset_struct.cpp in Sources */,
 				CEC680B72663A160007CB0E3 /* card2.cpp in Sources */,
 				CEC681052663A160007CB0E3 /* 10829.cpp in Sources */,
+				CE2641F026647006001E2A7C /* budget.cpp in Sources */,
 				CEC6810A2663A160007CB0E3 /* guitar.cpp in Sources */,
 				CEC680C22663A160007CB0E3 /* busroute.cpp in Sources */,
 				CEC680ED2663A160007CB0E3 /* fibonacci.cpp in Sources */,
