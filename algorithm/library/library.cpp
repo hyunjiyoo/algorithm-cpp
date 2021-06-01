@@ -2,8 +2,10 @@
 #include <algorithm>
 #include <vector>
 
+using vec = std::vector<int>;
+
 int N, M, R;
-std::vector<int> b1, b2;
+vec b1, b2;
 
 void input() {
     std::scanf("%d %d", &N, &M);
@@ -16,89 +18,28 @@ void input() {
         else
             b2.push_back(-book);
     }
+    std::sort(b1.rbegin(), b1.rend());
+    std::sort(b2.rbegin(), b2.rend());
+    
+    if (b1.empty()) b1.push_back(0);
+    if (b2.empty()) b2.push_back(0);
 }
 
-
-void solve() {
-    
-    std::sort(b1.begin(), b1.end(), std::greater<int>());
-    std::sort(b2.begin(), b2.end(), std::greater<int>());
-        
-    R = 0;
-    
-    for (int i = 0; i < b1.size(); ++i) {
-        std::cout << b1[i] << ' ';
-    }
-    
-    
-    for (int i = 0; i < b2.size(); ++i) {
-        std::cout << b2[i] << ' ';
-    }
-    std::cout <<  std::endl;
-    
-    if (b1[0] > b2[0]) {
-        R = b1[0];
-        
-        int R1, R2;
-        R1 = 0;
-        for (int i = 0; i < b2.size(); i += M) {
-            R1 += (b2[i] * M);
-        }
-        
-        R2 = b2[0];
-        for (int i = M; i < b2.size(); i += M) {
-            R2 += (b2[i] * M);
-        }
-        R += std::min(R1, R2);
-        
-        
-        int R3, R4;
-        R3 = R4 = 0;
-        for (int i = 1; i < b1.size(); i += M) {
-            R3 += (b1[i] * M);
-        }
-        
-        for (int i = 2; i < b1.size(); i += M) {
-            R4 += (b1[i] * M);
-        }
-        
-        R += std::min(R3, R4);
-        
-    }
-    else {
-        R = b2[0];
-        
-        int R1, R2;
-        R1 = 0;
-        for (int i = 0; i < b1.size(); i += M) {
-            R1 += (b1[i] * M);
-        }
-        
-        R2 = b1[0];
-        for (int i = 1; i < b1.size(); i += M) {
-            R2 += (b1[i] * M);
-        }
-        R += std::min(R1, R2);
-        
-        
-        int R3, R4;
-        R3 = R4 = 0;
-        for (int i = 1; i < b2.size(); i += M) {
-            R3 += (b2[i] * M);
-        }
-        
-        for (int i = M; i < b2.size(); i += M) {
-            R4 += (b2[i] * M);
-        }
-        
-        R += std::min(R3, R4);
-    }
+void solve(vec& b1, vec& b2) {
+    R = -b1[0];
+    for (int i = 0; i < b1.size(); i += M)
+        R += (b1[i] * 2);
+    for (int i = 0; i < b2.size(); i += M)
+        R += (b2[i] * 2);
 }
 
 
 int main (int argc, const char * argv []) {
     input();
-    solve();
+    if (b1[0] > b2[0])
+        solve(b1, b2);
+    else
+        solve(b2, b1);
     
     std::printf("%d", R);
     
