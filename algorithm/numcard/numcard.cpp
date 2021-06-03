@@ -28,12 +28,8 @@ void solve() {
 }
 
 void output() {
-    for (int i = 0; i < R.size(); ++i) {
-        if (i == R.size() - 1)
-            std::printf("%d", R[i]);
-        else
-            std::printf("%d ", R[i]);
-    }
+    for (int i = 0; i < R.size(); ++i)
+        std::printf("%d ", R[i]);
 }
 
 int main (int argc, const char* argv []) {
