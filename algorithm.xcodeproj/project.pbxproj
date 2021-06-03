@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7558A7266898FC00496288 /* beerfestival.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558A6266898FC00496288 /* beerfestival.cpp */; };
+		CE7558AE2668B24700496288 /* balloonfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558AD2668B24700496288 /* balloonfactory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +35,7 @@
 		CE75589E2663A51800496288 /* vector_bs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = vector_bs.cpp; sourceTree = "<group>"; };
 		CE7558A12663A52C00496288 /* array_bs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = array_bs.cpp; sourceTree = "<group>"; };
 		CE7558A6266898FC00496288 /* beerfestival.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = beerfestival.cpp; sourceTree = "<group>"; };
+		CE7558AD2668B24700496288 /* balloonfactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balloonfactory.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -222,6 +223,14 @@
 			path = beerfest;
 			sourceTree = "<group>";
 		};
+		CE7558AC2668B23000496288 /* balloonfactory */ = {
+			isa = PBXGroup;
+			children = (
+				CE7558AD2668B24700496288 /* balloonfactory.cpp */,
+			);
+			path = balloonfactory;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +250,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7558AC2668B23000496288 /* balloonfactory */,
 				CE7558A5266898EE00496288 /* beerfest */,
 				CE2641FC2666267A001E2A7C /* lecroom */,
 				CE2641F62664C4D8001E2A7C /* library */,
@@ -934,7 +944,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7558A7266898FC00496288 /* beerfestival.cpp in Sources */,
+				CE7558AE2668B24700496288 /* balloonfactory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
