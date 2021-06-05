@@ -29,7 +29,6 @@ void solve() {
             int add = (jewel[i] - 1) / mid + 1;
             count += add;
             
-                        // 이 조건문을 안해주면 count가 long long 범위만큼 올라가서 int자료형으로 안된다.
             if (count > N) break;
         }
         
