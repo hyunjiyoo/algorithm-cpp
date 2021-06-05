@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE7558B9266913C300496288 /* numcard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558B8266913C300496288 /* numcard.cpp */; };
+		CE7A9AAC266B8A8700166711 /* jewelbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AAB266B8A8700166711 /* jewelbox.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +39,7 @@
 		CE7558AD2668B24700496288 /* balloonfactory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = balloonfactory.cpp; sourceTree = "<group>"; };
 		CE7558B226690BA000496288 /* duparray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = duparray.cpp; sourceTree = "<group>"; };
 		CE7558B8266913C300496288 /* numcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numcard.cpp; sourceTree = "<group>"; };
+		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -249,6 +251,14 @@
 			path = numcard;
 			sourceTree = "<group>";
 		};
+		CE7A9AAA266B8A7600166711 /* jewelbox */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A9AAB266B8A8700166711 /* jewelbox.cpp */,
+			);
+			path = jewelbox;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +278,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7A9AAA266B8A7600166711 /* jewelbox */,
 				CE7558B7266913A300496288 /* numcard */,
 				CE7558B126690B6B00496288 /* duparr */,
 				CE7558AC2668B23000496288 /* balloonfactory */,
@@ -965,6 +976,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE7558B9266913C300496288 /* numcard.cpp in Sources */,
+				CE7A9AAC266B8A8700166711 /* jewelbox.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
