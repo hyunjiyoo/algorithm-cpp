@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7558B9266913C300496288 /* numcard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7558B8266913C300496288 /* numcard.cpp */; };
-		CE7A9AAC266B8A8700166711 /* jewelbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AAB266B8A8700166711 /* jewelbox.cpp */; };
+		CE00F6E3266DC2F000609EEA /* sushi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00F6E2266DC2F000609EEA /* sushi.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE00F6E2266DC2F000609EEA /* sushi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sushi.cpp; sourceTree = "<group>"; };
 		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
 		CE2641F72664C4E5001E2A7C /* library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = library.cpp; sourceTree = "<group>"; };
 		CE2641FD26662687001E2A7C /* lecroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecroom.cpp; sourceTree = "<group>"; };
@@ -159,6 +159,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE00F6E1266DC2DF00609EEA /* sushi */ = {
+			isa = PBXGroup;
+			children = (
+				CE00F6E2266DC2F000609EEA /* sushi.cpp */,
+			);
+			path = sushi;
+			sourceTree = "<group>";
+		};
 		CE2641EE26646FF7001E2A7C /* budget */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +286,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE00F6E1266DC2DF00609EEA /* sushi */,
 				CE7A9AAA266B8A7600166711 /* jewelbox */,
 				CE7558B7266913A300496288 /* numcard */,
 				CE7558B126690B6B00496288 /* duparr */,
@@ -975,8 +984,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7558B9266913C300496288 /* numcard.cpp in Sources */,
-				CE7A9AAC266B8A8700166711 /* jewelbox.cpp in Sources */,
+				CE00F6E3266DC2F000609EEA /* sushi.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
