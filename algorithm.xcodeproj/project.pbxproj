@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE00F6E3266DC2F000609EEA /* sushi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE00F6E2266DC2F000609EEA /* sushi.cpp */; };
+		CED9BAFA266F133E000651FD /* diet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BAF8266F0BE9000651FD /* diet.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CE00F6E2266DC2F000609EEA /* sushi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sushi.cpp; sourceTree = "<group>"; };
+		CE00F6E9266E0DE400609EEA /* selectnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selectnum.cpp; sourceTree = "<group>"; };
 		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
 		CE2641F72664C4E5001E2A7C /* library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = library.cpp; sourceTree = "<group>"; };
 		CE2641FD26662687001E2A7C /* lecroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecroom.cpp; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 		CEC680A82663A15F007CB0E3 /* palindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome.cpp; sourceTree = "<group>"; };
 		CEC680AA2663A15F007CB0E3 /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		CEC680AC2663A160007CB0E3 /* lis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lis.cpp; sourceTree = "<group>"; };
+		CED9BAF8266F0BE9000651FD /* diet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = diet.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,14 @@
 				CE00F6E2266DC2F000609EEA /* sushi.cpp */,
 			);
 			path = sushi;
+			sourceTree = "<group>";
+		};
+		CE00F6E8266E0DD800609EEA /* selectnum */ = {
+			isa = PBXGroup;
+			children = (
+				CE00F6E9266E0DE400609EEA /* selectnum.cpp */,
+			);
+			path = selectnum;
 			sourceTree = "<group>";
 		};
 		CE2641EE26646FF7001E2A7C /* budget */ = {
@@ -286,6 +296,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BAF7266F0BDD000651FD /* diet */,
+				CE00F6E8266E0DD800609EEA /* selectnum */,
 				CE00F6E1266DC2DF00609EEA /* sushi */,
 				CE7A9AAA266B8A7600166711 /* jewelbox */,
 				CE7558B7266913A300496288 /* numcard */,
@@ -928,6 +940,14 @@
 			path = longestIncSeq;
 			sourceTree = "<group>";
 		};
+		CED9BAF7266F0BDD000651FD /* diet */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BAF8266F0BE9000651FD /* diet.cpp */,
+			);
+			path = diet;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -954,7 +974,7 @@
 		CEC67ED12663A062007CB0E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					CEC67ED82663A062007CB0E3 = {
 						CreatedOnToolsVersion = 12.4;
@@ -984,7 +1004,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE00F6E3266DC2F000609EEA /* sushi.cpp in Sources */,
+				CED9BAFA266F133E000651FD /* diet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1042,7 +1062,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1095,7 +1115,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -1105,6 +1125,7 @@
 		CEC67EE12663A062007CB0E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1113,6 +1134,7 @@
 		CEC67EE22663A062007CB0E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
