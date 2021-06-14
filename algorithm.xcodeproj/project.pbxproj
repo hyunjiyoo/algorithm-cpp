@@ -16,6 +16,7 @@
 		CED9BB1F2676E6B9000651FD /* pick_twonum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB1E2676E6B9000651FD /* pick_twonum.cpp */; };
 		CED9BB222676F826000651FD /* recommendid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB212676F826000651FD /* recommendid.cpp */; };
 		CED9BB2526772EB3000651FD /* notfinish_player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB2426772EB3000651FD /* notfinish_player.cpp */; };
+		CED9BB28267741CF000651FD /* makeprime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB27267741CF000651FD /* makeprime.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -164,6 +165,7 @@
 		CED9BB1E2676E6B9000651FD /* pick_twonum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pick_twonum.cpp; sourceTree = "<group>"; };
 		CED9BB212676F826000651FD /* recommendid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recommendid.cpp; sourceTree = "<group>"; };
 		CED9BB2426772EB3000651FD /* notfinish_player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = notfinish_player.cpp; sourceTree = "<group>"; };
+		CED9BB27267741CF000651FD /* makeprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = makeprime.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -312,6 +314,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB26267741C2000651FD /* makeprime */,
 				CED9BB2326772E97000651FD /* notfinish_player */,
 				CED9BB202676F811000651FD /* recommendid */,
 				CED9BB1D2676E6A7000651FD /* pick_twonum */,
@@ -1036,6 +1039,14 @@
 			path = notfinish_player;
 			sourceTree = "<group>";
 		};
+		CED9BB26267741C2000651FD /* makeprime */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB27267741CF000651FD /* makeprime.cpp */,
+			);
+			path = makeprime;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1093,6 +1104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED9BAFA266F133E000651FD /* diet.cpp in Sources */,
+				CED9BB28267741CF000651FD /* makeprime.cpp in Sources */,
 				CED9BB1C2676E3DF000651FD /* keypad.cpp in Sources */,
 				CED9BB102676E339000651FD /* trialexam.cpp in Sources */,
 				CED9BB192676E3B3000651FD /* lotto.cpp in Sources */,
