@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		CED9BAFA266F133E000651FD /* diet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BAF8266F0BE9000651FD /* diet.cpp */; };
+		CED9BB102676E339000651FD /* trialexam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB0F2676E339000651FD /* trialexam.cpp */; };
+		CED9BB132676E366000651FD /* gymcloth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB122676E366000651FD /* gymcloth.cpp */; };
+		CED9BB162676E398000651FD /* cranedoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB152676E398000651FD /* cranedoll.cpp */; };
+		CED9BB192676E3B3000651FD /* lotto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB182676E3B3000651FD /* lotto.cpp */; };
+		CED9BB1C2676E3DF000651FD /* keypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB1B2676E3DF000651FD /* keypad.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -148,6 +153,11 @@
 		CEC680AA2663A15F007CB0E3 /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		CEC680AC2663A160007CB0E3 /* lis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lis.cpp; sourceTree = "<group>"; };
 		CED9BAF8266F0BE9000651FD /* diet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = diet.cpp; sourceTree = "<group>"; };
+		CED9BB0F2676E339000651FD /* trialexam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trialexam.cpp; sourceTree = "<group>"; };
+		CED9BB122676E366000651FD /* gymcloth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gymcloth.cpp; sourceTree = "<group>"; };
+		CED9BB152676E398000651FD /* cranedoll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cranedoll.cpp; sourceTree = "<group>"; };
+		CED9BB182676E3B3000651FD /* lotto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lotto.cpp; sourceTree = "<group>"; };
+		CED9BB1B2676E3DF000651FD /* keypad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keypad.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -296,6 +306,11 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB1A2676E3CE000651FD /* keypad */,
+				CED9BB172676E3A8000651FD /* lotto */,
+				CED9BB142676E382000651FD /* cranedoll */,
+				CED9BB112676E351000651FD /* gymcloth */,
+				CED9BB0E2676E32A000651FD /* trialexam */,
 				CED9BAF7266F0BDD000651FD /* diet */,
 				CE00F6E8266E0DD800609EEA /* selectnum */,
 				CE00F6E1266DC2DF00609EEA /* sushi */,
@@ -948,6 +963,46 @@
 			path = diet;
 			sourceTree = "<group>";
 		};
+		CED9BB0E2676E32A000651FD /* trialexam */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB0F2676E339000651FD /* trialexam.cpp */,
+			);
+			path = trialexam;
+			sourceTree = "<group>";
+		};
+		CED9BB112676E351000651FD /* gymcloth */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB122676E366000651FD /* gymcloth.cpp */,
+			);
+			path = gymcloth;
+			sourceTree = "<group>";
+		};
+		CED9BB142676E382000651FD /* cranedoll */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB152676E398000651FD /* cranedoll.cpp */,
+			);
+			path = cranedoll;
+			sourceTree = "<group>";
+		};
+		CED9BB172676E3A8000651FD /* lotto */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB182676E3B3000651FD /* lotto.cpp */,
+			);
+			path = lotto;
+			sourceTree = "<group>";
+		};
+		CED9BB1A2676E3CE000651FD /* keypad */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB1B2676E3DF000651FD /* keypad.cpp */,
+			);
+			path = keypad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1005,6 +1060,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED9BAFA266F133E000651FD /* diet.cpp in Sources */,
+				CED9BB1C2676E3DF000651FD /* keypad.cpp in Sources */,
+				CED9BB102676E339000651FD /* trialexam.cpp in Sources */,
+				CED9BB192676E3B3000651FD /* lotto.cpp in Sources */,
+				CED9BB162676E398000651FD /* cranedoll.cpp in Sources */,
+				CED9BB132676E366000651FD /* gymcloth.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
