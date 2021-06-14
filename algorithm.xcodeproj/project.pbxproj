@@ -7,16 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED9BAFA266F133E000651FD /* diet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BAF8266F0BE9000651FD /* diet.cpp */; };
-		CED9BB102676E339000651FD /* trialexam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB0F2676E339000651FD /* trialexam.cpp */; };
-		CED9BB132676E366000651FD /* gymcloth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB122676E366000651FD /* gymcloth.cpp */; };
-		CED9BB162676E398000651FD /* cranedoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB152676E398000651FD /* cranedoll.cpp */; };
-		CED9BB192676E3B3000651FD /* lotto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB182676E3B3000651FD /* lotto.cpp */; };
-		CED9BB1C2676E3DF000651FD /* keypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB1B2676E3DF000651FD /* keypad.cpp */; };
-		CED9BB1F2676E6B9000651FD /* pick_twonum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB1E2676E6B9000651FD /* pick_twonum.cpp */; };
-		CED9BB222676F826000651FD /* recommendid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB212676F826000651FD /* recommendid.cpp */; };
-		CED9BB2526772EB3000651FD /* notfinish_player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB2426772EB3000651FD /* notfinish_player.cpp */; };
-		CED9BB28267741CF000651FD /* makeprime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB27267741CF000651FD /* makeprime.cpp */; };
+		CE7A9ABD2677913100166711 /* groupword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AB826778E7C00166711 /* groupword.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +41,7 @@
 		CE7558B226690BA000496288 /* duparray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = duparray.cpp; sourceTree = "<group>"; };
 		CE7558B8266913C300496288 /* numcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numcard.cpp; sourceTree = "<group>"; };
 		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
+		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -295,6 +287,14 @@
 			path = jewelbox;
 			sourceTree = "<group>";
 		};
+		CE7A9AB726778E6D00166711 /* groupword */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A9AB826778E7C00166711 /* groupword.cpp */,
+			);
+			path = groupword;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +314,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7A9AB726778E6D00166711 /* groupword */,
 				CED9BB26267741C2000651FD /* makeprime */,
 				CED9BB2326772E97000651FD /* notfinish_player */,
 				CED9BB202676F811000651FD /* recommendid */,
@@ -1103,16 +1104,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BAFA266F133E000651FD /* diet.cpp in Sources */,
-				CED9BB28267741CF000651FD /* makeprime.cpp in Sources */,
-				CED9BB1C2676E3DF000651FD /* keypad.cpp in Sources */,
-				CED9BB102676E339000651FD /* trialexam.cpp in Sources */,
-				CED9BB192676E3B3000651FD /* lotto.cpp in Sources */,
-				CED9BB2526772EB3000651FD /* notfinish_player.cpp in Sources */,
-				CED9BB162676E398000651FD /* cranedoll.cpp in Sources */,
-				CED9BB1F2676E6B9000651FD /* pick_twonum.cpp in Sources */,
-				CED9BB132676E366000651FD /* gymcloth.cpp in Sources */,
-				CED9BB222676F826000651FD /* recommendid.cpp in Sources */,
+				CE7A9ABD2677913100166711 /* groupword.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
