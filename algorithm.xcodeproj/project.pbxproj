@@ -13,6 +13,8 @@
 		CED9BB162676E398000651FD /* cranedoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB152676E398000651FD /* cranedoll.cpp */; };
 		CED9BB192676E3B3000651FD /* lotto.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB182676E3B3000651FD /* lotto.cpp */; };
 		CED9BB1C2676E3DF000651FD /* keypad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB1B2676E3DF000651FD /* keypad.cpp */; };
+		CED9BB1F2676E6B9000651FD /* pick_twonum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB1E2676E6B9000651FD /* pick_twonum.cpp */; };
+		CED9BB222676F826000651FD /* recommendid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB212676F826000651FD /* recommendid.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -158,6 +160,8 @@
 		CED9BB152676E398000651FD /* cranedoll.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cranedoll.cpp; sourceTree = "<group>"; };
 		CED9BB182676E3B3000651FD /* lotto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lotto.cpp; sourceTree = "<group>"; };
 		CED9BB1B2676E3DF000651FD /* keypad.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = keypad.cpp; sourceTree = "<group>"; };
+		CED9BB1E2676E6B9000651FD /* pick_twonum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pick_twonum.cpp; sourceTree = "<group>"; };
+		CED9BB212676F826000651FD /* recommendid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = recommendid.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +310,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB202676F811000651FD /* recommendid */,
+				CED9BB1D2676E6A7000651FD /* pick_twonum */,
 				CED9BB1A2676E3CE000651FD /* keypad */,
 				CED9BB172676E3A8000651FD /* lotto */,
 				CED9BB142676E382000651FD /* cranedoll */,
@@ -1003,6 +1009,22 @@
 			path = keypad;
 			sourceTree = "<group>";
 		};
+		CED9BB1D2676E6A7000651FD /* pick_twonum */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB1E2676E6B9000651FD /* pick_twonum.cpp */,
+			);
+			path = pick_twonum;
+			sourceTree = "<group>";
+		};
+		CED9BB202676F811000651FD /* recommendid */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB212676F826000651FD /* recommendid.cpp */,
+			);
+			path = recommendid;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1064,7 +1086,9 @@
 				CED9BB102676E339000651FD /* trialexam.cpp in Sources */,
 				CED9BB192676E3B3000651FD /* lotto.cpp in Sources */,
 				CED9BB162676E398000651FD /* cranedoll.cpp in Sources */,
+				CED9BB1F2676E6B9000651FD /* pick_twonum.cpp in Sources */,
 				CED9BB132676E366000651FD /* gymcloth.cpp in Sources */,
+				CED9BB222676F826000651FD /* recommendid.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
