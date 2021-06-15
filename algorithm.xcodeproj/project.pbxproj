@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7A9ABD2677913100166711 /* groupword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AB826778E7C00166711 /* groupword.cpp */; };
-		CED9BB2B2678758B000651FD /* failure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB2A2678758B000651FD /* failure.cpp */; };
-		CED9BB2E26787C28000651FD /* ternary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB2D26787C28000651FD /* ternary.cpp */; };
+		CED9BB342678C3EA000651FD /* primesum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB332678C3EA000651FD /* primesum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -162,6 +160,8 @@
 		CED9BB27267741CF000651FD /* makeprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = makeprime.cpp; sourceTree = "<group>"; };
 		CED9BB2A2678758B000651FD /* failure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = failure.cpp; sourceTree = "<group>"; };
 		CED9BB2D26787C28000651FD /* ternary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ternary.cpp; sourceTree = "<group>"; };
+		CED9BB3026788CB8000651FD /* secretmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = secretmap.cpp; sourceTree = "<group>"; };
+		CED9BB332678C3EA000651FD /* primesum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primesum.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -318,6 +318,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB322678C3D7000651FD /* primesum */,
+				CED9BB2F26788CAD000651FD /* secretmap */,
 				CED9BB2C26787C1E000651FD /* ternary */,
 				CED9BB292678757E000651FD /* failure */,
 				CE7A9AB726778E6D00166711 /* groupword */,
@@ -1070,6 +1072,22 @@
 			path = ternary;
 			sourceTree = "<group>";
 		};
+		CED9BB2F26788CAD000651FD /* secretmap */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB3026788CB8000651FD /* secretmap.cpp */,
+			);
+			path = secretmap;
+			sourceTree = "<group>";
+		};
+		CED9BB322678C3D7000651FD /* primesum */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB332678C3EA000651FD /* primesum.cpp */,
+			);
+			path = primesum;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1126,9 +1144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BB2E26787C28000651FD /* ternary.cpp in Sources */,
-				CED9BB2B2678758B000651FD /* failure.cpp in Sources */,
-				CE7A9ABD2677913100166711 /* groupword.cpp in Sources */,
+				CED9BB342678C3EA000651FD /* primesum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
