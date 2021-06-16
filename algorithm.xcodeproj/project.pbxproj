@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE7A9AC226798FFC00166711 /* dartgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AC126798FFC00166711 /* dartgame.cpp */; };
 		CED9BB342678C3EA000651FD /* primesum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB332678C3EA000651FD /* primesum.cpp */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		CE7558B8266913C300496288 /* numcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numcard.cpp; sourceTree = "<group>"; };
 		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
+		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -299,6 +301,14 @@
 			path = groupword;
 			sourceTree = "<group>";
 		};
+		CE7A9AC026798FF000166711 /* dartgame */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A9AC126798FFC00166711 /* dartgame.cpp */,
+			);
+			path = dartgame;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +328,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7A9AC026798FF000166711 /* dartgame */,
 				CED9BB322678C3D7000651FD /* primesum */,
 				CED9BB2F26788CAD000651FD /* secretmap */,
 				CED9BB2C26787C1E000651FD /* ternary */,
@@ -1144,6 +1155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7A9AC226798FFC00166711 /* dartgame.cpp in Sources */,
 				CED9BB342678C3EA000651FD /* primesum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
