@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7A9AC226798FFC00166711 /* dartgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AC126798FFC00166711 /* dartgame.cpp */; };
-		CED9BB342678C3EA000651FD /* primesum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB332678C3EA000651FD /* primesum.cpp */; };
+		CED9BB37267B00E5000651FD /* AC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB36267B00E5000651FD /* AC.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -164,6 +163,7 @@
 		CED9BB2D26787C28000651FD /* ternary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ternary.cpp; sourceTree = "<group>"; };
 		CED9BB3026788CB8000651FD /* secretmap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = secretmap.cpp; sourceTree = "<group>"; };
 		CED9BB332678C3EA000651FD /* primesum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primesum.cpp; sourceTree = "<group>"; };
+		CED9BB36267B00E5000651FD /* AC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AC.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +328,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB35267B00D7000651FD /* AC */,
 				CE7A9AC026798FF000166711 /* dartgame */,
 				CED9BB322678C3D7000651FD /* primesum */,
 				CED9BB2F26788CAD000651FD /* secretmap */,
@@ -1099,6 +1100,14 @@
 			path = primesum;
 			sourceTree = "<group>";
 		};
+		CED9BB35267B00D7000651FD /* AC */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB36267B00E5000651FD /* AC.cpp */,
+			);
+			path = AC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1155,8 +1164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7A9AC226798FFC00166711 /* dartgame.cpp in Sources */,
-				CED9BB342678C3EA000651FD /* primesum.cpp in Sources */,
+				CED9BB37267B00E5000651FD /* AC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
