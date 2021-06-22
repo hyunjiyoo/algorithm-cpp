@@ -30,10 +30,8 @@ vector<string> solution(vector<string> record) {
     map<string, string> m;
     
     for (int j = (int)record.size() - 1; j >= 0; --j) {
-        if (behavior[j] != "Leave") {
-            if (m.find(id[j]) == m.end())
-                m.insert(make_pair(id[j], name[j]));
-        }
+        if (behavior[j] != "Leave" && (m.find(id[j]) == m.end()))
+            m.insert(make_pair(id[j], name[j]));
     }
     
     for (int i = 0; i < record.size(); ++i)
@@ -44,13 +42,11 @@ vector<string> solution(vector<string> record) {
         string str = "";
         
         if (behavior[i] == "Enter") {
-            str += name[i];
-            str += "님이 들어왔습니다.";
+            str = name[i] + "님이 들어왔습니다.";
             answer.push_back(str);
         }
         else if (behavior[i] == "Leave") {
-            str += name[i];
-            str += "님이 나갔습니다.";
+            str = name[i] + "님이 나갔습니다.";
             answer.push_back(str);
         }
     }
