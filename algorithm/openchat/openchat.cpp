@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
-#include <iostream>
 #include <sstream>
+#include <map>
 
 using namespace std;
 
@@ -16,36 +16,28 @@ vector<string> solution(vector<string> record) {
         istringstream ss(record[i]);
         string token;
         
-        while (getline(ss, token, ' ')) {
-            if (token == "Enter" || token == "Leave" || token == "Change")
-                behavior[i] = token;
-            else if (token.find("uid") != string::npos)
-                id[i] = token;
-            else
-                name[i] = token;
+        getline(ss, token, ' ');
+        behavior[i] = token;
+        
+        getline(ss, token, ' ');
+        id[i] = token;
+        
+        if (getline(ss, token, ' '))
+            name[i] = token;
+    }
+    
+    
+    map<string, string> m;
+    
+    for (int j = (int)record.size() - 1; j >= 0; --j) {
+        if (behavior[j] != "Leave") {
+            if (m.find(id[j]) == m.end())
+                m.insert(make_pair(id[j], name[j]));
         }
     }
     
-    
-    for (int i = 0; i < record.size(); ++i) {
-        cout << behavior[i] << ' ' << id[i] << ' ' << name[i] << endl;
-    }
-    
-    
-    for (int i = 0; i < record.size(); ++i) {
-        for (int j = (int)record.size() - 1; j >= 0; --j) {
-            if (id[j] == id[i]) {
-                name[i] = name[j];
-                break;
-            }
-        }
-    }
-    
-    
-    cout << endl;
-    for (int i = 0; i < record.size(); ++i) {
-        cout << behavior[i] << ' ' << id[i] << ' ' << name[i] << endl;
-    }
+    for (int i = 0; i < record.size(); ++i)
+        name[i] = m[id[i]];
     
     
     for (int i = 0; i < record.size(); ++i) {
@@ -64,17 +56,4 @@ vector<string> solution(vector<string> record) {
     }
     
     return answer;
-}
-
-int main() {
-    
-    vector<string> v = {"Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"};
-    vector<string> ans;
-    ans = solution(v);
-    
-    for (auto it = ans.begin(); it != ans.end(); ++it) {
-        cout << *it << endl;
-    }
-    
-    return 0;
 }
