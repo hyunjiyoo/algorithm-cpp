@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED9BB4326819D3E000651FD /* stringzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB4226819D3E000651FD /* stringzip.cpp */; };
+		CED9BB462681CA86000651FD /* targetnumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB452681CA86000651FD /* targetnumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -168,6 +168,7 @@
 		CED9BB3C2680530A000651FD /* groupphoto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupphoto.cpp; sourceTree = "<group>"; };
 		CED9BB3F268082B1000651FD /* openchat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = openchat.cpp; sourceTree = "<group>"; };
 		CED9BB4226819D3E000651FD /* stringzip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringzip.cpp; sourceTree = "<group>"; };
+		CED9BB452681CA86000651FD /* targetnumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = targetnumber.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +333,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB442681CA77000651FD /* targetnumber */,
 				CED9BB4126819D2E000651FD /* stringzip */,
 				CED9BB3E268082A3000651FD /* openchat */,
 				CED9BB3B268052FC000651FD /* groupphoto */,
@@ -1148,6 +1150,14 @@
 			path = stringzip;
 			sourceTree = "<group>";
 		};
+		CED9BB442681CA77000651FD /* targetnumber */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB452681CA86000651FD /* targetnumber.cpp */,
+			);
+			path = targetnumber;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1204,7 +1214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BB4326819D3E000651FD /* stringzip.cpp in Sources */,
+				CED9BB462681CA86000651FD /* targetnumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
