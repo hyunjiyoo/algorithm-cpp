@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED9BB462681CA86000651FD /* targetnumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB452681CA86000651FD /* targetnumber.cpp */; };
+		CED9BB4C2682D222000651FD /* gamemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB4B2682D222000651FD /* gamemap.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -169,6 +169,8 @@
 		CED9BB3F268082B1000651FD /* openchat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = openchat.cpp; sourceTree = "<group>"; };
 		CED9BB4226819D3E000651FD /* stringzip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stringzip.cpp; sourceTree = "<group>"; };
 		CED9BB452681CA86000651FD /* targetnumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = targetnumber.cpp; sourceTree = "<group>"; };
+		CED9BB482681E15C000651FD /* mergesort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mergesort.cpp; sourceTree = "<group>"; };
+		CED9BB4B2682D222000651FD /* gamemap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gamemap.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -333,6 +335,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB4A2682D212000651FD /* gamemap */,
+				CED9BB472681E150000651FD /* mergesort */,
 				CED9BB442681CA77000651FD /* targetnumber */,
 				CED9BB4126819D2E000651FD /* stringzip */,
 				CED9BB3E268082A3000651FD /* openchat */,
@@ -1158,6 +1162,22 @@
 			path = targetnumber;
 			sourceTree = "<group>";
 		};
+		CED9BB472681E150000651FD /* mergesort */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB482681E15C000651FD /* mergesort.cpp */,
+			);
+			path = mergesort;
+			sourceTree = "<group>";
+		};
+		CED9BB4A2682D212000651FD /* gamemap */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB4B2682D222000651FD /* gamemap.cpp */,
+			);
+			path = gamemap;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1214,7 +1234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BB462681CA86000651FD /* targetnumber.cpp in Sources */,
+				CED9BB4C2682D222000651FD /* gamemap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
