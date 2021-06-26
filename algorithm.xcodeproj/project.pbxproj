@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED9BB522685BB96000651FD /* z.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB512685BB96000651FD /* z.cpp */; };
+		CE7A9AD126871E9F00166711 /* stemcell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7A9AD026871E9F00166711 /* stemcell.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +43,7 @@
 		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
+		CE7A9AD026871E9F00166711 /* stemcell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stemcell.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -317,6 +318,14 @@
 			path = dartgame;
 			sourceTree = "<group>";
 		};
+		CE7A9ACF26871E9300166711 /* stemcell */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A9AD026871E9F00166711 /* stemcell.cpp */,
+			);
+			path = stemcell;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +345,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7A9ACF26871E9300166711 /* stemcell */,
 				CED9BB502685BB8A000651FD /* z */,
 				CED9BB4A2682D212000651FD /* gamemap */,
 				CED9BB472681E150000651FD /* mergesort */,
@@ -1244,7 +1254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BB522685BB96000651FD /* z.cpp in Sources */,
+				CE7A9AD126871E9F00166711 /* stemcell.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
