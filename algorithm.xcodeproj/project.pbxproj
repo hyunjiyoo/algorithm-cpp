@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED9BB5526898779000651FD /* oneline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB5426898779000651FD /* oneline.cpp */; };
+		CE6CE342268C4CC200955654 /* startlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE6CE341268C4CC200955654 /* startlink.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
 		CE2641F72664C4E5001E2A7C /* library.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = library.cpp; sourceTree = "<group>"; };
 		CE2641FD26662687001E2A7C /* lecroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecroom.cpp; sourceTree = "<group>"; };
+		CE6CE341268C4CC200955654 /* startlink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = startlink.cpp; sourceTree = "<group>"; };
 		CE7558822663A3BD00496288 /* palidrome2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palidrome2.cpp; sourceTree = "<group>"; };
 		CE7558882663A47000496288 /* twobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twobox.cpp; sourceTree = "<group>"; };
 		CE75588D2663A48F00496288 /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
@@ -227,6 +228,14 @@
 			path = lecroom;
 			sourceTree = "<group>";
 		};
+		CE6CE340268C4CB400955654 /* startlink */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CE341268C4CC200955654 /* startlink.cpp */,
+			);
+			path = startlink;
+			sourceTree = "<group>";
+		};
 		CE7558812663A3A700496288 /* palindrome2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +355,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE6CE340268C4CB400955654 /* startlink */,
 				CED9BB532689876A000651FD /* oneline */,
 				CE7A9ACF26871E9300166711 /* stemcell */,
 				CED9BB502685BB8A000651FD /* z */,
@@ -1264,7 +1274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BB5526898779000651FD /* oneline.cpp in Sources */,
+				CE6CE342268C4CC200955654 /* startlink.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
