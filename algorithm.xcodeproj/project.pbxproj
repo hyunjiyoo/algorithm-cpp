@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE6CE348268D871F00955654 /* dfsbfs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE6CE347268D871F00955654 /* dfsbfs.cpp */; };
+		CE6CE354268E8B2800955654 /* tomato.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE6CE353268E8B2800955654 /* tomato.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,8 @@
 		CE2641FD26662687001E2A7C /* lecroom.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lecroom.cpp; sourceTree = "<group>"; };
 		CE6CE341268C4CC200955654 /* startlink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = startlink.cpp; sourceTree = "<group>"; };
 		CE6CE347268D871F00955654 /* dfsbfs.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dfsbfs.cpp; sourceTree = "<group>"; };
+		CE6CE34D268DD20700955654 /* miro.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = miro.cpp; sourceTree = "<group>"; };
+		CE6CE353268E8B2800955654 /* tomato.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tomato.cpp; sourceTree = "<group>"; };
 		CE7558822663A3BD00496288 /* palidrome2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = palidrome2.cpp; sourceTree = "<group>"; };
 		CE7558882663A47000496288 /* twobox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = twobox.cpp; sourceTree = "<group>"; };
 		CE75588D2663A48F00496288 /* line.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = line.cpp; sourceTree = "<group>"; };
@@ -245,6 +247,22 @@
 			path = dfsbfs;
 			sourceTree = "<group>";
 		};
+		CE6CE34C268DD1FD00955654 /* miro */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CE34D268DD20700955654 /* miro.cpp */,
+			);
+			path = miro;
+			sourceTree = "<group>";
+		};
+		CE6CE352268E8B1C00955654 /* tomato */ = {
+			isa = PBXGroup;
+			children = (
+				CE6CE353268E8B2800955654 /* tomato.cpp */,
+			);
+			path = tomato;
+			sourceTree = "<group>";
+		};
 		CE7558812663A3A700496288 /* palindrome2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +382,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE6CE352268E8B1C00955654 /* tomato */,
+				CE6CE34C268DD1FD00955654 /* miro */,
 				CE6CE346268D871400955654 /* dfsbfs */,
 				CE6CE340268C4CB400955654 /* startlink */,
 				CED9BB532689876A000651FD /* oneline */,
@@ -1284,7 +1304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6CE348268D871F00955654 /* dfsbfs.cpp in Sources */,
+				CE6CE354268E8B2800955654 /* tomato.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
