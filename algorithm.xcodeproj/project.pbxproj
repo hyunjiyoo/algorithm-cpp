@@ -175,6 +175,7 @@
 		CED9BB4B2682D222000651FD /* gamemap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gamemap.cpp; sourceTree = "<group>"; };
 		CED9BB512685BB96000651FD /* z.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = z.cpp; sourceTree = "<group>"; };
 		CED9BB5426898779000651FD /* oneline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oneline.cpp; sourceTree = "<group>"; };
+		CEE83BD7268EAFAB00D8FC05 /* hidenseek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hidenseek.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,6 +388,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEE83BD6268EAF9E00D8FC05 /* hidenseek */,
 				CE6CE359268E99FC00955654 /* complexnum */,
 				CE6CE352268E8B1C00955654 /* tomato */,
 				CE6CE34C268DD1FD00955654 /* miro */,
@@ -1252,6 +1254,14 @@
 				CED9BB5426898779000651FD /* oneline.cpp */,
 			);
 			path = oneline;
+			sourceTree = "<group>";
+		};
+		CEE83BD6268EAF9E00D8FC05 /* hidenseek */ = {
+			isa = PBXGroup;
+			children = (
+				CEE83BD7268EAFAB00D8FC05 /* hidenseek.cpp */,
+			);
+			path = hidenseek;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
