@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CEE83BDE268EC48400D8FC05 /* cabbage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE83BDD268EC48400D8FC05 /* cabbage.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		CEC67ED72663A062007CB0E3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -176,6 +180,7 @@
 		CED9BB512685BB96000651FD /* z.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = z.cpp; sourceTree = "<group>"; };
 		CED9BB5426898779000651FD /* oneline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oneline.cpp; sourceTree = "<group>"; };
 		CEE83BD7268EAFAB00D8FC05 /* hidenseek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hidenseek.cpp; sourceTree = "<group>"; };
+		CEE83BDD268EC48400D8FC05 /* cabbage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cabbage.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,6 +393,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEE83BDC268EC47600D8FC05 /* cabbage */,
 				CEE83BD6268EAF9E00D8FC05 /* hidenseek */,
 				CE6CE359268E99FC00955654 /* complexnum */,
 				CE6CE352268E8B1C00955654 /* tomato */,
@@ -1264,6 +1270,14 @@
 			path = hidenseek;
 			sourceTree = "<group>";
 		};
+		CEE83BDC268EC47600D8FC05 /* cabbage */ = {
+			isa = PBXGroup;
+			children = (
+				CEE83BDD268EC48400D8FC05 /* cabbage.cpp */,
+			);
+			path = cabbage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1320,6 +1334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE83BDE268EC48400D8FC05 /* cabbage.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
