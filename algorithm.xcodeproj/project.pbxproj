@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEE83BDE268EC48400D8FC05 /* cabbage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEE83BDD268EC48400D8FC05 /* cabbage.cpp */; };
+		CED9BB5B2692A275000651FD /* laboratory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB5A2692A275000651FD /* laboratory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -179,6 +179,7 @@
 		CED9BB4B2682D222000651FD /* gamemap.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gamemap.cpp; sourceTree = "<group>"; };
 		CED9BB512685BB96000651FD /* z.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = z.cpp; sourceTree = "<group>"; };
 		CED9BB5426898779000651FD /* oneline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = oneline.cpp; sourceTree = "<group>"; };
+		CED9BB5A2692A275000651FD /* laboratory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = laboratory.cpp; sourceTree = "<group>"; };
 		CEE83BD7268EAFAB00D8FC05 /* hidenseek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hidenseek.cpp; sourceTree = "<group>"; };
 		CEE83BDD268EC48400D8FC05 /* cabbage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cabbage.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -393,6 +394,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB592692A265000651FD /* laboratory */,
 				CEE83BDC268EC47600D8FC05 /* cabbage */,
 				CEE83BD6268EAF9E00D8FC05 /* hidenseek */,
 				CE6CE359268E99FC00955654 /* complexnum */,
@@ -1262,6 +1264,14 @@
 			path = oneline;
 			sourceTree = "<group>";
 		};
+		CED9BB592692A265000651FD /* laboratory */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB5A2692A275000651FD /* laboratory.cpp */,
+			);
+			path = laboratory;
+			sourceTree = "<group>";
+		};
 		CEE83BD6268EAF9E00D8FC05 /* hidenseek */ = {
 			isa = PBXGroup;
 			children = (
@@ -1334,7 +1344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE83BDE268EC48400D8FC05 /* cabbage.cpp in Sources */,
+				CED9BB5B2692A275000651FD /* laboratory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
