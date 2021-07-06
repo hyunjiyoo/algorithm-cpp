@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED9BB612692E4F3000651FD /* wallbreakmove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB602692E4F3000651FD /* wallbreakmove.cpp */; };
+		CED9BB642694448A000651FD /* safezone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED9BB632694448A000651FD /* safezone.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -182,6 +182,7 @@
 		CED9BB5A2692A275000651FD /* laboratory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = laboratory.cpp; sourceTree = "<group>"; };
 		CED9BB5D2692D735000651FD /* rgbline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rgbline.cpp; sourceTree = "<group>"; };
 		CED9BB602692E4F3000651FD /* wallbreakmove.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wallbreakmove.cpp; sourceTree = "<group>"; };
+		CED9BB632694448A000651FD /* safezone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = safezone.cpp; sourceTree = "<group>"; };
 		CEE83BD7268EAFAB00D8FC05 /* hidenseek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hidenseek.cpp; sourceTree = "<group>"; };
 		CEE83BDD268EC48400D8FC05 /* cabbage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cabbage.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -396,6 +397,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED9BB622694447A000651FD /* safezone */,
 				CED9BB5F2692E4E4000651FD /* wallbreakmove */,
 				CED9BB5C2692D714000651FD /* rgblind */,
 				CED9BB592692A265000651FD /* laboratory */,
@@ -1292,6 +1294,14 @@
 			path = wallbreakmove;
 			sourceTree = "<group>";
 		};
+		CED9BB622694447A000651FD /* safezone */ = {
+			isa = PBXGroup;
+			children = (
+				CED9BB632694448A000651FD /* safezone.cpp */,
+			);
+			path = safezone;
+			sourceTree = "<group>";
+		};
 		CEE83BD6268EAF9E00D8FC05 /* hidenseek */ = {
 			isa = PBXGroup;
 			children = (
@@ -1364,7 +1374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED9BB612692E4F3000651FD /* wallbreakmove.cpp in Sources */,
+				CED9BB642694448A000651FD /* safezone.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
