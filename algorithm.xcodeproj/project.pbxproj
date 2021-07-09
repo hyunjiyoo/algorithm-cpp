@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE82BE9B2696878300ED48AA /* primenum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE82BE9A2696878300ED48AA /* primenum.cpp */; };
+		CEA5A0B12697DC9200F162D0 /* missingbracket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,9 +49,9 @@
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
 		CE7A9AD026871E9F00166711 /* stemcell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stemcell.cpp; sourceTree = "<group>"; };
-		CE82BE8E2696739600ED48AA /* robotcleaner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = robotcleaner.cpp; sourceTree = "<group>"; };
 		CE82BE94269683D500ED48AA /* pluscycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pluscycle.cpp; sourceTree = "<group>"; };
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
+		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -388,14 +388,6 @@
 			path = stemcell;
 			sourceTree = "<group>";
 		};
-		CE82BE8D2696738400ED48AA /* robotcleaner */ = {
-			isa = PBXGroup;
-			children = (
-				CE82BE8E2696739600ED48AA /* robotcleaner.cpp */,
-			);
-			path = robotcleaner;
-			sourceTree = "<group>";
-		};
 		CE82BE93269683C700ED48AA /* pluscycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -410,6 +402,14 @@
 				CE82BE9A2696878300ED48AA /* primenum.cpp */,
 			);
 			path = primenum;
+			sourceTree = "<group>";
+		};
+		CEA5A0AF2697DC6E00F162D0 /* missingbracket */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */,
+			);
+			path = missingbracket;
 			sourceTree = "<group>";
 		};
 		CEC67ED02663A062007CB0E3 = {
@@ -431,9 +431,9 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEA5A0AF2697DC6E00F162D0 /* missingbracket */,
 				CE82BE992696877800ED48AA /* primenum */,
 				CE82BE93269683C700ED48AA /* pluscycle */,
-				CE82BE8D2696738400ED48AA /* robotcleaner */,
 				CED9BB7726959535000651FD /* print */,
 				CED9BB7426958225000651FD /* nm5 */,
 				CED9BB7126957FD8000651FD /* nm4 */,
@@ -1474,7 +1474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE82BE9B2696878300ED48AA /* primenum.cpp in Sources */,
+				CEA5A0B12697DC9200F162D0 /* missingbracket.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
