@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA5A0B12697DC9200F162D0 /* missingbracket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */; };
+		CEA5A0B4269814FC00F162D0 /* printerq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0B3269814FC00F162D0 /* printerq.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +52,7 @@
 		CE82BE94269683D500ED48AA /* pluscycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pluscycle.cpp; sourceTree = "<group>"; };
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
 		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
+		CEA5A0B3269814FC00F162D0 /* printerq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerq.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -412,6 +413,14 @@
 			path = missingbracket;
 			sourceTree = "<group>";
 		};
+		CEA5A0B2269814E600F162D0 /* printerq */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0B3269814FC00F162D0 /* printerq.cpp */,
+			);
+			path = printerq;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +440,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEA5A0B2269814E600F162D0 /* printerq */,
 				CEA5A0AF2697DC6E00F162D0 /* missingbracket */,
 				CE82BE992696877800ED48AA /* primenum */,
 				CE82BE93269683C700ED48AA /* pluscycle */,
@@ -1474,7 +1484,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA5A0B12697DC9200F162D0 /* missingbracket.cpp in Sources */,
+				CEA5A0B4269814FC00F162D0 /* printerq.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
