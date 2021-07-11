@@ -18,6 +18,8 @@ void input() {
 void solve() {
  
     for (int i = 2; i < 1'001; ++i) {
+        if (prime[i] == false)
+            continue;
         
         int j = 2;
         while (i * j < 1'001) {
