@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA5A0B4269814FC00F162D0 /* printerq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0B3269814FC00F162D0 /* printerq.cpp */; };
+		CEA5A0DC269AF49E00F162D0 /* fullmarathoner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0D4269ADBA600F162D0 /* fullmarathoner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +53,17 @@
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
 		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
 		CEA5A0B3269814FC00F162D0 /* printerq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerq.cpp; sourceTree = "<group>"; };
+		CEA5A0B926996F2E00F162D0 /* findprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findprime.cpp; sourceTree = "<group>"; };
+		CEA5A0BC26997C6E00F162D0 /* pinarynum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pinarynum.cpp; sourceTree = "<group>"; };
+		CEA5A0C02699877D00F162D0 /* kthnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kthnum.cpp; sourceTree = "<group>"; };
+		CEA5A0C3269988C700F162D0 /* connectcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectcount.cpp; sourceTree = "<group>"; };
+		CEA5A0C6269999E500F162D0 /* changemoney.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = changemoney.cpp; sourceTree = "<group>"; };
+		CEA5A0CB269AC59300F162D0 /* notlistensee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = notlistensee.cpp; sourceTree = "<group>"; };
+		CEA5A0CE269AD21100F162D0 /* 123plus5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 123plus5.cpp; sourceTree = "<group>"; };
+		CEA5A0D1269AD70300F162D0 /* jumpjump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jumpjump.cpp; sourceTree = "<group>"; };
+		CEA5A0D4269ADBA600F162D0 /* fullmarathoner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fullmarathoner.cpp; sourceTree = "<group>"; };
+		CEA5A0D7269AE41D00F162D0 /* findprime2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findprime2.cpp; sourceTree = "<group>"; };
+		CEA5A0DA269AE80F00F162D0 /* f7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = f7.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -421,6 +432,94 @@
 			path = printerq;
 			sourceTree = "<group>";
 		};
+		CEA5A0B826996F1F00F162D0 /* findprime */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0B926996F2E00F162D0 /* findprime.cpp */,
+			);
+			path = findprime;
+			sourceTree = "<group>";
+		};
+		CEA5A0BB26997C5D00F162D0 /* pinarynum */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0BC26997C6E00F162D0 /* pinarynum.cpp */,
+			);
+			path = pinarynum;
+			sourceTree = "<group>";
+		};
+		CEA5A0BF2699876F00F162D0 /* kthnum */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0C02699877D00F162D0 /* kthnum.cpp */,
+			);
+			path = kthnum;
+			sourceTree = "<group>";
+		};
+		CEA5A0C2269988B800F162D0 /* connectcount */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0C3269988C700F162D0 /* connectcount.cpp */,
+			);
+			path = connectcount;
+			sourceTree = "<group>";
+		};
+		CEA5A0C5269999C900F162D0 /* changemoney */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0C6269999E500F162D0 /* changemoney.cpp */,
+			);
+			path = changemoney;
+			sourceTree = "<group>";
+		};
+		CEA5A0CA269AC57B00F162D0 /* notlistensee */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0CB269AC59300F162D0 /* notlistensee.cpp */,
+			);
+			path = notlistensee;
+			sourceTree = "<group>";
+		};
+		CEA5A0CD269AD20200F162D0 /* 123plus5 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0CE269AD21100F162D0 /* 123plus5.cpp */,
+			);
+			path = 123plus5;
+			sourceTree = "<group>";
+		};
+		CEA5A0D0269AD6F300F162D0 /* jumpjump */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0D1269AD70300F162D0 /* jumpjump.cpp */,
+			);
+			path = jumpjump;
+			sourceTree = "<group>";
+		};
+		CEA5A0D3269ADB8B00F162D0 /* fullmarathoner */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0D4269ADBA600F162D0 /* fullmarathoner.cpp */,
+			);
+			path = fullmarathoner;
+			sourceTree = "<group>";
+		};
+		CEA5A0D6269AE40A00F162D0 /* findprime2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0D7269AE41D00F162D0 /* findprime2.cpp */,
+			);
+			path = findprime2;
+			sourceTree = "<group>";
+		};
+		CEA5A0D9269AE80400F162D0 /* f7 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0DA269AE80F00F162D0 /* f7.cpp */,
+			);
+			path = f7;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -440,6 +539,17 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEA5A0D9269AE80400F162D0 /* f7 */,
+				CEA5A0D6269AE40A00F162D0 /* findprime2 */,
+				CEA5A0D3269ADB8B00F162D0 /* fullmarathoner */,
+				CEA5A0D0269AD6F300F162D0 /* jumpjump */,
+				CEA5A0CD269AD20200F162D0 /* 123plus5 */,
+				CEA5A0CA269AC57B00F162D0 /* notlistensee */,
+				CEA5A0C5269999C900F162D0 /* changemoney */,
+				CEA5A0C2269988B800F162D0 /* connectcount */,
+				CEA5A0BF2699876F00F162D0 /* kthnum */,
+				CEA5A0BB26997C5D00F162D0 /* pinarynum */,
+				CEA5A0B826996F1F00F162D0 /* findprime */,
 				CEA5A0B2269814E600F162D0 /* printerq */,
 				CEA5A0AF2697DC6E00F162D0 /* missingbracket */,
 				CE82BE992696877800ED48AA /* primenum */,
@@ -1484,7 +1594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA5A0B4269814FC00F162D0 /* printerq.cpp in Sources */,
+				CEA5A0DC269AF49E00F162D0 /* fullmarathoner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
