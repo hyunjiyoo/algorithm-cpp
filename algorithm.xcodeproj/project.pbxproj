@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA5A0DC269AF49E00F162D0 /* fullmarathoner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0D4269ADBA600F162D0 /* fullmarathoner.cpp */; };
+		CEA5A0DF269C0F6E00F162D0 /* islandcount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0DE269C0F6E00F162D0 /* islandcount.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +64,7 @@
 		CEA5A0D4269ADBA600F162D0 /* fullmarathoner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fullmarathoner.cpp; sourceTree = "<group>"; };
 		CEA5A0D7269AE41D00F162D0 /* findprime2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findprime2.cpp; sourceTree = "<group>"; };
 		CEA5A0DA269AE80F00F162D0 /* f7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = f7.cpp; sourceTree = "<group>"; };
+		CEA5A0DE269C0F6E00F162D0 /* islandcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = islandcount.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -520,6 +521,14 @@
 			path = f7;
 			sourceTree = "<group>";
 		};
+		CEA5A0DD269C0F5C00F162D0 /* islandcount */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0DE269C0F6E00F162D0 /* islandcount.cpp */,
+			);
+			path = islandcount;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +548,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEA5A0DD269C0F5C00F162D0 /* islandcount */,
 				CEA5A0D9269AE80400F162D0 /* f7 */,
 				CEA5A0D6269AE40A00F162D0 /* findprime2 */,
 				CEA5A0D3269ADB8B00F162D0 /* fullmarathoner */,
@@ -1594,7 +1604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA5A0DC269AF49E00F162D0 /* fullmarathoner.cpp in Sources */,
+				CEA5A0DF269C0F6E00F162D0 /* islandcount.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
