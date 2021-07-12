@@ -1,11 +1,9 @@
 #include <iostream>
-#include <queue>
 #include <vector>
 
 const int offset[8][2] = { {-1, 0}, {-1, -1}, {0, -1}, {1, -1}, {1, 0}, {1, 1}, {0, 1}, {-1, 1} };
 
 int w, h, cnt;
-std::queue<std::pair<int, int>> q;
 std::vector<std::vector<bool>> island, visited;
 
 void init() {
@@ -20,8 +18,6 @@ void init() {
         island[i].resize(w);
         visited[i].resize(w);
     }
-    
-    while (!q.empty()) q.pop();
 }
 
 void input() {
