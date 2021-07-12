@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA5A0E2269C160C00F162D0 /* tomato2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0E1269C160C00F162D0 /* tomato2.cpp */; };
+		CE82BEA2269C82AD00ED48AA /* getarea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE82BEA1269C82AD00ED48AA /* getarea.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +51,7 @@
 		CE7A9AD026871E9F00166711 /* stemcell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stemcell.cpp; sourceTree = "<group>"; };
 		CE82BE94269683D500ED48AA /* pluscycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pluscycle.cpp; sourceTree = "<group>"; };
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
+		CE82BEA1269C82AD00ED48AA /* getarea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getarea.cpp; sourceTree = "<group>"; };
 		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
 		CEA5A0B3269814FC00F162D0 /* printerq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerq.cpp; sourceTree = "<group>"; };
 		CEA5A0B926996F2E00F162D0 /* findprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findprime.cpp; sourceTree = "<group>"; };
@@ -418,6 +419,14 @@
 			path = primenum;
 			sourceTree = "<group>";
 		};
+		CE82BEA0269C829400ED48AA /* getarea */ = {
+			isa = PBXGroup;
+			children = (
+				CE82BEA1269C82AD00ED48AA /* getarea.cpp */,
+			);
+			path = getarea;
+			sourceTree = "<group>";
+		};
 		CEA5A0AF2697DC6E00F162D0 /* missingbracket */ = {
 			isa = PBXGroup;
 			children = (
@@ -557,6 +566,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE82BEA0269C829400ED48AA /* getarea */,
 				CEA5A0E0269C160000F162D0 /* tomato2 */,
 				CEA5A0DD269C0F5C00F162D0 /* islandcount */,
 				CEA5A0D9269AE80400F162D0 /* f7 */,
@@ -1614,7 +1624,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA5A0E2269C160C00F162D0 /* tomato2.cpp in Sources */,
+				CE82BEA2269C82AD00ED48AA /* getarea.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
