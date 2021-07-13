@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA5A0E5269D278400F162D0 /* treasureisland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0E4269D278400F162D0 /* treasureisland.cpp */; };
+		CEA5A0E8269D932900F162D0 /* knightmove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0E7269D932900F162D0 /* knightmove.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -68,6 +68,7 @@
 		CEA5A0DE269C0F6E00F162D0 /* islandcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = islandcount.cpp; sourceTree = "<group>"; };
 		CEA5A0E1269C160C00F162D0 /* tomato2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tomato2.cpp; sourceTree = "<group>"; };
 		CEA5A0E4269D278400F162D0 /* treasureisland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = treasureisland.cpp; sourceTree = "<group>"; };
+		CEA5A0E7269D932900F162D0 /* knightmove.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = knightmove.cpp; sourceTree = "<group>"; };
 		CEC67ED92663A062007CB0E3 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC680002663A15A007CB0E3 /* virus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = virus.cpp; sourceTree = "<group>"; };
 		CEC680022663A15A007CB0E3 /* maxdiff_ws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxdiff_ws.cpp; sourceTree = "<group>"; };
@@ -556,6 +557,14 @@
 			path = treasureisland;
 			sourceTree = "<group>";
 		};
+		CEA5A0E6269D930C00F162D0 /* knightmove */ = {
+			isa = PBXGroup;
+			children = (
+				CEA5A0E7269D932900F162D0 /* knightmove.cpp */,
+			);
+			path = knightmove;
+			sourceTree = "<group>";
+		};
 		CEC67ED02663A062007CB0E3 = {
 			isa = PBXGroup;
 			children = (
@@ -575,6 +584,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEA5A0E6269D930C00F162D0 /* knightmove */,
 				CEA5A0E3269D276C00F162D0 /* treasureisland */,
 				CE82BEA0269C829400ED48AA /* getarea */,
 				CEA5A0E0269C160000F162D0 /* tomato2 */,
@@ -1634,7 +1644,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA5A0E5269D278400F162D0 /* treasureisland.cpp in Sources */,
+				CEA5A0E8269D932900F162D0 /* knightmove.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
