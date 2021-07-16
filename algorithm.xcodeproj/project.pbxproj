@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEA5A0E8269D932900F162D0 /* knightmove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA5A0E7269D932900F162D0 /* knightmove.cpp */; };
+		CE7E082B26A16BF500F5119D /* grapewine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7E082626A1573000F5119D /* grapewine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +49,12 @@
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
 		CE7A9AD026871E9F00166711 /* stemcell.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stemcell.cpp; sourceTree = "<group>"; };
+		CE7E081A26A13D2800F5119D /* nc2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nc2.cpp; sourceTree = "<group>"; };
+		CE7E081D26A13FDE00F5119D /* printerqueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerqueue.cpp; sourceTree = "<group>"; };
+		CE7E082026A1437500F5119D /* makeone.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = makeone.cpp; sourceTree = "<group>"; };
+		CE7E082326A1518A00F5119D /* easystair.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = easystair.cpp; sourceTree = "<group>"; };
+		CE7E082626A1573000F5119D /* grapewine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = grapewine.cpp; sourceTree = "<group>"; };
+		CE7E082926A1629D00F5119D /* seqsort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = seqsort.cpp; sourceTree = "<group>"; };
 		CE82BE94269683D500ED48AA /* pluscycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pluscycle.cpp; sourceTree = "<group>"; };
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
 		CE82BEA1269C82AD00ED48AA /* getarea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getarea.cpp; sourceTree = "<group>"; };
@@ -405,6 +411,54 @@
 			path = stemcell;
 			sourceTree = "<group>";
 		};
+		CE7E081926A13D0800F5119D /* numcard2 */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E081A26A13D2800F5119D /* nc2.cpp */,
+			);
+			path = numcard2;
+			sourceTree = "<group>";
+		};
+		CE7E081C26A13FD100F5119D /* printerqueue */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E081D26A13FDE00F5119D /* printerqueue.cpp */,
+			);
+			path = printerqueue;
+			sourceTree = "<group>";
+		};
+		CE7E081F26A1436A00F5119D /* makeone */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E082026A1437500F5119D /* makeone.cpp */,
+			);
+			path = makeone;
+			sourceTree = "<group>";
+		};
+		CE7E082226A1517E00F5119D /* easystair */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E082326A1518A00F5119D /* easystair.cpp */,
+			);
+			path = easystair;
+			sourceTree = "<group>";
+		};
+		CE7E082526A1572000F5119D /* grapewine */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E082626A1573000F5119D /* grapewine.cpp */,
+			);
+			path = grapewine;
+			sourceTree = "<group>";
+		};
+		CE7E082826A1628600F5119D /* seqsort */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E082926A1629D00F5119D /* seqsort.cpp */,
+			);
+			path = seqsort;
+			sourceTree = "<group>";
+		};
 		CE82BE93269683C700ED48AA /* pluscycle */ = {
 			isa = PBXGroup;
 			children = (
@@ -584,6 +638,12 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE7E082826A1628600F5119D /* seqsort */,
+				CE7E082526A1572000F5119D /* grapewine */,
+				CE7E082226A1517E00F5119D /* easystair */,
+				CE7E081F26A1436A00F5119D /* makeone */,
+				CE7E081C26A13FD100F5119D /* printerqueue */,
+				CE7E081926A13D0800F5119D /* numcard2 */,
 				CEA5A0E6269D930C00F162D0 /* knightmove */,
 				CEA5A0E3269D276C00F162D0 /* treasureisland */,
 				CE82BEA0269C829400ED48AA /* getarea */,
@@ -1644,7 +1704,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA5A0E8269D932900F162D0 /* knightmove.cpp in Sources */,
+				CE7E082B26A16BF500F5119D /* grapewine.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
