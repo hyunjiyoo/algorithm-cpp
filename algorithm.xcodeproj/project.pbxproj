@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE7E082B26A16BF500F5119D /* grapewine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7E082626A1573000F5119D /* grapewine.cpp */; };
+		CE82BEA926A2882300ED48AA /* findnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE82BEA826A2882300ED48AA /* findnum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +58,7 @@
 		CE82BE94269683D500ED48AA /* pluscycle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pluscycle.cpp; sourceTree = "<group>"; };
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
 		CE82BEA1269C82AD00ED48AA /* getarea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getarea.cpp; sourceTree = "<group>"; };
+		CE82BEA826A2882300ED48AA /* findnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findnum.cpp; sourceTree = "<group>"; };
 		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
 		CEA5A0B3269814FC00F162D0 /* printerq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerq.cpp; sourceTree = "<group>"; };
 		CEA5A0B926996F2E00F162D0 /* findprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findprime.cpp; sourceTree = "<group>"; };
@@ -483,6 +484,14 @@
 			path = getarea;
 			sourceTree = "<group>";
 		};
+		CE82BEA726A2866C00ED48AA /* findnum */ = {
+			isa = PBXGroup;
+			children = (
+				CE82BEA826A2882300ED48AA /* findnum.cpp */,
+			);
+			path = findnum;
+			sourceTree = "<group>";
+		};
 		CEA5A0AF2697DC6E00F162D0 /* missingbracket */ = {
 			isa = PBXGroup;
 			children = (
@@ -638,6 +647,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE82BEA726A2866C00ED48AA /* findnum */,
 				CE7E082826A1628600F5119D /* seqsort */,
 				CE7E082526A1572000F5119D /* grapewine */,
 				CE7E082226A1517E00F5119D /* easystair */,
@@ -1704,7 +1714,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7E082B26A16BF500F5119D /* grapewine.cpp in Sources */,
+				CE82BEA926A2882300ED48AA /* findnum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
