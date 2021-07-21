@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE82BEA926A2882300ED48AA /* findnum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE82BEA826A2882300ED48AA /* findnum.cpp */; };
+		CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF42AC126A818AA00157985 /* cuttree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -219,6 +219,8 @@
 		CED9BB7826959542000651FD /* print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print.cpp; sourceTree = "<group>"; };
 		CEE83BD7268EAFAB00D8FC05 /* hidenseek.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hidenseek.cpp; sourceTree = "<group>"; };
 		CEE83BDD268EC48400D8FC05 /* cabbage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cabbage.cpp; sourceTree = "<group>"; };
+		CEF42ABE26A7B7A800157985 /* installrouter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = installrouter.cpp; sourceTree = "<group>"; };
+		CEF42AC126A818AA00157985 /* cuttree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cuttree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -647,6 +649,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEF42AC026A8189C00157985 /* cuttree */,
+				CEF42ABD26A7B79500157985 /* installrouter */,
 				CE82BEA726A2866C00ED48AA /* findnum */,
 				CE7E082826A1628600F5119D /* seqsort */,
 				CE7E082526A1572000F5119D /* grapewine */,
@@ -1658,6 +1662,22 @@
 			path = cabbage;
 			sourceTree = "<group>";
 		};
+		CEF42ABD26A7B79500157985 /* installrouter */ = {
+			isa = PBXGroup;
+			children = (
+				CEF42ABE26A7B7A800157985 /* installrouter.cpp */,
+			);
+			path = installrouter;
+			sourceTree = "<group>";
+		};
+		CEF42AC026A8189C00157985 /* cuttree */ = {
+			isa = PBXGroup;
+			children = (
+				CEF42AC126A818AA00157985 /* cuttree.cpp */,
+			);
+			path = cuttree;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1714,7 +1734,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE82BEA926A2882300ED48AA /* findnum.cpp in Sources */,
+				CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
