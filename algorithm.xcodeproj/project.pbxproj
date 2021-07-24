@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF42AC126A818AA00157985 /* cuttree.cpp */; };
+		CEFA661026AC550500C533E5 /* 2ntiling2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA660F26AC550500C533E5 /* 2ntiling2.cpp */; };
+		CEFA661526AC551700C533E5 /* hanoitop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA661426AC551700C533E5 /* hanoitop.cpp */; };
+		CEFA661A26AC554700C533E5 /* drinkwine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA661926AC554700C533E5 /* drinkwine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -221,6 +224,9 @@
 		CEE83BDD268EC48400D8FC05 /* cabbage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cabbage.cpp; sourceTree = "<group>"; };
 		CEF42ABE26A7B7A800157985 /* installrouter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = installrouter.cpp; sourceTree = "<group>"; };
 		CEF42AC126A818AA00157985 /* cuttree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cuttree.cpp; sourceTree = "<group>"; };
+		CEFA660F26AC550500C533E5 /* 2ntiling2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2ntiling2.cpp; sourceTree = "<group>"; };
+		CEFA661426AC551700C533E5 /* hanoitop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hanoitop.cpp; sourceTree = "<group>"; };
+		CEFA661926AC554700C533E5 /* drinkwine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drinkwine.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -649,6 +655,9 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEFA661826AC552800C533E5 /* drinkwine */,
+				CEFA661326AC550B00C533E5 /* hanoitop */,
+				CEFA660E26AC54F500C533E5 /* 2ntiling2 */,
 				CEF42AC026A8189C00157985 /* cuttree */,
 				CEF42ABD26A7B79500157985 /* installrouter */,
 				CE82BEA726A2866C00ED48AA /* findnum */,
@@ -1678,6 +1687,30 @@
 			path = cuttree;
 			sourceTree = "<group>";
 		};
+		CEFA660E26AC54F500C533E5 /* 2ntiling2 */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA660F26AC550500C533E5 /* 2ntiling2.cpp */,
+			);
+			path = 2ntiling2;
+			sourceTree = "<group>";
+		};
+		CEFA661326AC550B00C533E5 /* hanoitop */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA661426AC551700C533E5 /* hanoitop.cpp */,
+			);
+			path = hanoitop;
+			sourceTree = "<group>";
+		};
+		CEFA661826AC552800C533E5 /* drinkwine */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA661926AC554700C533E5 /* drinkwine.cpp */,
+			);
+			path = drinkwine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1735,6 +1768,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */,
+				CEFA661A26AC554700C533E5 /* drinkwine.cpp in Sources */,
+				CEFA661026AC550500C533E5 /* 2ntiling2.cpp in Sources */,
+				CEFA661526AC551700C533E5 /* hanoitop.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
