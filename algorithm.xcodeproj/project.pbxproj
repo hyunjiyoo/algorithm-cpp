@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF42AC126A818AA00157985 /* cuttree.cpp */; };
+		CEF42AC526AE6C4700157985 /* filltile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF42AC426AE6C4700157985 /* filltile.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -221,6 +221,7 @@
 		CEE83BDD268EC48400D8FC05 /* cabbage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cabbage.cpp; sourceTree = "<group>"; };
 		CEF42ABE26A7B7A800157985 /* installrouter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = installrouter.cpp; sourceTree = "<group>"; };
 		CEF42AC126A818AA00157985 /* cuttree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cuttree.cpp; sourceTree = "<group>"; };
+		CEF42AC426AE6C4700157985 /* filltile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = filltile.cpp; sourceTree = "<group>"; };
 		CEFA660F26AC550500C533E5 /* 2ntiling2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 2ntiling2.cpp; sourceTree = "<group>"; };
 		CEFA661426AC551700C533E5 /* hanoitop.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hanoitop.cpp; sourceTree = "<group>"; };
 		CEFA661926AC554700C533E5 /* drinkwine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = drinkwine.cpp; sourceTree = "<group>"; };
@@ -652,6 +653,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CEF42AC326AE6C3600157985 /* filltile */,
 				CEFA661826AC552800C533E5 /* drinkwine */,
 				CEFA661326AC550B00C533E5 /* hanoitop */,
 				CEFA660E26AC54F500C533E5 /* 2ntiling2 */,
@@ -1684,6 +1686,14 @@
 			path = cuttree;
 			sourceTree = "<group>";
 		};
+		CEF42AC326AE6C3600157985 /* filltile */ = {
+			isa = PBXGroup;
+			children = (
+				CEF42AC426AE6C4700157985 /* filltile.cpp */,
+			);
+			path = filltile;
+			sourceTree = "<group>";
+		};
 		CEFA660E26AC54F500C533E5 /* 2ntiling2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1764,7 +1774,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */,
+				CEF42AC526AE6C4700157985 /* filltile.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
