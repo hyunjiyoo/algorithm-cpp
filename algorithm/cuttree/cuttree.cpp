@@ -16,31 +16,32 @@ void input() {
 
 void solve() {
     
-    int64_t left = tree[0];
-    int64_t right = tree[N - 1];
+    int left = 0;
+    int right = tree[N - 1];
+    int mid = (left + right) / 2;
     
     while (left <= right) {
         
-        int64_t mid = (left + right) / 2;
-        
         int64_t sum = 0;
         for (int i = N - 1; i >= 0; --i) {
-            if (tree[i] < mid) break;
+            if (tree[i] <= mid) break;
             sum += (tree[i] - mid);
-            if (sum >= M) break;
+            if (sum > M) break;
         }
         
-        if (sum == M) {
-            std::cout << mid;
+        if (sum == M)
             break;
-        }
         
         if (sum > M)
-            left = mid;
+            left = mid + 1;
         
         if (sum < M)
-            right = mid;
+            right = mid - 1;
+        
+        mid = (left + right) / 2;
     }
+    
+    std::cout << mid;
 }
 
 int main (int argc, const char * argv []) {

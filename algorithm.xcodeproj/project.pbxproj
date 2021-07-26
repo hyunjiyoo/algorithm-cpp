@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF42AC126A818AA00157985 /* cuttree.cpp */; };
-		CEFA661026AC550500C533E5 /* 2ntiling2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA660F26AC550500C533E5 /* 2ntiling2.cpp */; };
-		CEFA661526AC551700C533E5 /* hanoitop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA661426AC551700C533E5 /* hanoitop.cpp */; };
-		CEFA661A26AC554700C533E5 /* drinkwine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA661926AC554700C533E5 /* drinkwine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1768,9 +1765,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF42AC226A818AA00157985 /* cuttree.cpp in Sources */,
-				CEFA661A26AC554700C533E5 /* drinkwine.cpp in Sources */,
-				CEFA661026AC550500C533E5 /* 2ntiling2.cpp in Sources */,
-				CEFA661526AC551700C533E5 /* hanoitop.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
