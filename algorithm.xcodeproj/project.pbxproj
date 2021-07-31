@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE78586826B5270200CF0519 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78586726B5270200CF0519 /* game.cpp */; };
+		CE78586B26B53E8300CF0519 /* immigration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78586A26B53E8300CF0519 /* immigration.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +46,7 @@
 		CE7558B226690BA000496288 /* duparray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = duparray.cpp; sourceTree = "<group>"; };
 		CE7558B8266913C300496288 /* numcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = numcard.cpp; sourceTree = "<group>"; };
 		CE78586726B5270200CF0519 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		CE78586A26B53E8300CF0519 /* immigration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = immigration.cpp; sourceTree = "<group>"; };
 		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
@@ -398,6 +399,14 @@
 			path = game;
 			sourceTree = "<group>";
 		};
+		CE78586926B53E7700CF0519 /* immigration */ = {
+			isa = PBXGroup;
+			children = (
+				CE78586A26B53E8300CF0519 /* immigration.cpp */,
+			);
+			path = immigration;
+			sourceTree = "<group>";
+		};
 		CE7A9AAA266B8A7600166711 /* jewelbox */ = {
 			isa = PBXGroup;
 			children = (
@@ -665,6 +674,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE78586926B53E7700CF0519 /* immigration */,
 				CE78586626B526F100CF0519 /* game */,
 				CEFA664326B4195000C533E5 /* lan */,
 				CEF42AC626B1453B00157985 /* guitarlesson */,
@@ -1814,7 +1824,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78586826B5270200CF0519 /* game.cpp in Sources */,
+				CE78586B26B53E8300CF0519 /* immigration.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
