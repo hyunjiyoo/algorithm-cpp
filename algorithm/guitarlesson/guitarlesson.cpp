@@ -27,7 +27,7 @@ void solve() {
     int left = minvalue;
     int right = maxvalue;
     int mid = (left + right) / 2;
-//    int blueray = maxvalue;
+    int blueray = maxvalue;
     
     while (left <= right) {
         
@@ -54,16 +54,18 @@ void solve() {
 //        if (count == M)
 //            blueray = std::min(blueray, mid);
         
-        if (count > M)
+        if (count > M) {
             left = mid + 1;
-        
-        if (count <= M)
+        }
+        else {
             right = mid - 1;
-        
+            blueray = std::min(blueray, mid);
+        }
+            
         mid = (left + right) / 2;
     }
     
-    std::cout << left;
+    std::cout << blueray;
 }
 
 
