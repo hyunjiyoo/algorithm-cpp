@@ -1,69 +1,62 @@
 #include <iostream>
 #include <algorithm>
-#include <limits>
 #include <vector>
 
 int N, C;
-std::vector<int> home, router;
+std::vector<int> home;
 
 void input() {
+    std::ios::sync_with_stdio(false);
+    
     std::cin >> N >> C;
     home.resize(N);
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; ++i)
         std::cin >> home[i];
-    }
     
     std::sort(home.begin(), home.end());
+}
+
+bool installRouter(int64_t dist) {
     
-    router.push_back(home[0]);
-    router.push_back(home[N - 1]);
+    int count = 1;
+    int64_t basis = home[0];
+    for (int i = 0; i < N; ++i) {
+        
+        if (home[i] - basis >= dist) {
+            ++count;
+            basis = home[i];
+        }
+        
+        if (count > C) break;
+    }
+    
+    return count >= C;
 }
 
 
 void solve() {
     
-    int idx = 0;
-    int left = home[0];
-    int right = home[N - 1];
+    int64_t left = 1;
+    int64_t right = home[N - 1] - home[0];
+    int64_t mid = (left + right) / 2;
     
-    for (int i = 0; i < C - 2; ++i) {
-    
-        int mid = (left + right) / 2;
-        int min = std::numeric_limits<int>::max();
-        for (int j = 1; j < N - 1; ++j) {
-            if (min > std::abs(mid - home[j])) {
-                min = std::abs(mid - home[j]);
-                idx = j;
-            }
-        }
+    while (left <= right) {
         
-        router.push_back(home[idx]);
+        if (installRouter(mid))
+            left = mid + 1;
+        else
+            right = mid - 1;
         
-        if (idx < N / 2)
-            left = home[idx];
-        
-         if (idx > N / 2)
-            right = home[idx];
+        mid = (left + right) / 2;
     }
     
-    std::sort(router.begin(), router.end());
-}
-
-
-void output() {
-    int min = std::numeric_limits<int>::max();
-    for (int i = 0; i < C - 1; ++i) {
-        min = std::min(min, router[i + 1] - router[i]);
-    }
-    
-    std::cout << min;
+    std::cout << left - 1;
 }
 
 int main(int argc, const char * argv []) {
     
     input();
     solve();
-    output();
     
     return 0;
 }

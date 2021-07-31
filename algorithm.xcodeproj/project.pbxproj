@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CEFA664526B4195F00C533E5 /* lan.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEFA664426B4195F00C533E5 /* lan.cpp */; };
+		CE78586526B524BF00CF0519 /* installrouter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEF42ABE26A7B7A800157985 /* installrouter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1804,7 +1804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFA664526B4195F00C533E5 /* lan.cpp in Sources */,
+				CE78586526B524BF00CF0519 /* installrouter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
