@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE78587426B591E300CF0519 /* newemployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78587326B591E300CF0519 /* newemployee.cpp */; };
+		CE78587726B64D2700CF0519 /* kinship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78587626B64D2700CF0519 /* kinship.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +50,7 @@
 		CE78586D26B5498000CF0519 /* allowance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = allowance.cpp; sourceTree = "<group>"; };
 		CE78587026B58E4E00CF0519 /* microwave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = microwave.cpp; sourceTree = "<group>"; };
 		CE78587326B591E300CF0519 /* newemployee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = newemployee.cpp; sourceTree = "<group>"; };
+		CE78587626B64D2700CF0519 /* kinship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kinship.cpp; sourceTree = "<group>"; };
 		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
@@ -434,6 +435,14 @@
 			path = newemployee;
 			sourceTree = "<group>";
 		};
+		CE78587526B64D0E00CF0519 /* kinship */ = {
+			isa = PBXGroup;
+			children = (
+				CE78587626B64D2700CF0519 /* kinship.cpp */,
+			);
+			path = kinship;
+			sourceTree = "<group>";
+		};
 		CE7A9AAA266B8A7600166711 /* jewelbox */ = {
 			isa = PBXGroup;
 			children = (
@@ -701,6 +710,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE78587526B64D0E00CF0519 /* kinship */,
 				CE78587226B591C800CF0519 /* newemployee */,
 				CE78586F26B58E3700CF0519 /* microwave */,
 				CE78586C26B5496600CF0519 /* allowance */,
@@ -1854,7 +1864,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78587426B591E300CF0519 /* newemployee.cpp in Sources */,
+				CE78587726B64D2700CF0519 /* kinship.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
