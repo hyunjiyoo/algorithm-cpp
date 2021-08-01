@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE78587726B64D2700CF0519 /* kinship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78587626B64D2700CF0519 /* kinship.cpp */; };
+		CE78587A26B6606C00CF0519 /* coin1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78587926B6606C00CF0519 /* coin1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +51,7 @@
 		CE78587026B58E4E00CF0519 /* microwave.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = microwave.cpp; sourceTree = "<group>"; };
 		CE78587326B591E300CF0519 /* newemployee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = newemployee.cpp; sourceTree = "<group>"; };
 		CE78587626B64D2700CF0519 /* kinship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = kinship.cpp; sourceTree = "<group>"; };
+		CE78587926B6606C00CF0519 /* coin1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coin1.cpp; sourceTree = "<group>"; };
 		CE7A9AAB266B8A8700166711 /* jewelbox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jewelbox.cpp; sourceTree = "<group>"; };
 		CE7A9AB826778E7C00166711 /* groupword.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = groupword.cpp; sourceTree = "<group>"; };
 		CE7A9AC126798FFC00166711 /* dartgame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dartgame.cpp; sourceTree = "<group>"; };
@@ -443,6 +444,14 @@
 			path = kinship;
 			sourceTree = "<group>";
 		};
+		CE78587826B6605F00CF0519 /* coin1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE78587926B6606C00CF0519 /* coin1.cpp */,
+			);
+			path = coin1;
+			sourceTree = "<group>";
+		};
 		CE7A9AAA266B8A7600166711 /* jewelbox */ = {
 			isa = PBXGroup;
 			children = (
@@ -710,6 +719,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE78587826B6605F00CF0519 /* coin1 */,
 				CE78587526B64D0E00CF0519 /* kinship */,
 				CE78587226B591C800CF0519 /* newemployee */,
 				CE78586F26B58E3700CF0519 /* microwave */,
@@ -1864,7 +1874,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78587726B64D2700CF0519 /* kinship.cpp in Sources */,
+				CE78587A26B6606C00CF0519 /* coin1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
