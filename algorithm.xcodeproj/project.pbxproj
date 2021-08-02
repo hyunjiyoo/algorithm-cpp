@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE78587A26B6606C00CF0519 /* coin1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE78587926B6606C00CF0519 /* coin1.cpp */; };
+		CED4875C26B7F8E20086E0F2 /* jumpjump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4875126B7DBF70086E0F2 /* jumpjump.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +66,7 @@
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
 		CE82BEA1269C82AD00ED48AA /* getarea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getarea.cpp; sourceTree = "<group>"; };
 		CE82BEA826A2882300ED48AA /* findnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findnum.cpp; sourceTree = "<group>"; };
+		CEA1025E26B7D25C00B4E291 /* cantor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cantor.cpp; sourceTree = "<group>"; };
 		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
 		CEA5A0B3269814FC00F162D0 /* printerq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerq.cpp; sourceTree = "<group>"; };
 		CEA5A0B926996F2E00F162D0 /* findprime.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findprime.cpp; sourceTree = "<group>"; };
@@ -189,6 +190,10 @@
 		CEC680A82663A15F007CB0E3 /* palindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome.cpp; sourceTree = "<group>"; };
 		CEC680AA2663A15F007CB0E3 /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		CEC680AC2663A160007CB0E3 /* lis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lis.cpp; sourceTree = "<group>"; };
+		CED4875126B7DBF70086E0F2 /* jumpjump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jumpjump.cpp; sourceTree = "<group>"; };
+		CED4875426B7DE0E0086E0F2 /* landcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = landcount.cpp; sourceTree = "<group>"; };
+		CED4875726B7E2580086E0F2 /* zoo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zoo.cpp; sourceTree = "<group>"; };
+		CED4875A26B7E4E30086E0F2 /* diffmax.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = diffmax.cpp; sourceTree = "<group>"; };
 		CED9BAF8266F0BE9000651FD /* diet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = diet.cpp; sourceTree = "<group>"; };
 		CED9BB0F2676E339000651FD /* trialexam.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = trialexam.cpp; sourceTree = "<group>"; };
 		CED9BB122676E366000651FD /* gymcloth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gymcloth.cpp; sourceTree = "<group>"; };
@@ -564,6 +569,14 @@
 			path = findnum;
 			sourceTree = "<group>";
 		};
+		CEA1025D26B7D24A00B4E291 /* cantor */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1025E26B7D25C00B4E291 /* cantor.cpp */,
+			);
+			path = cantor;
+			sourceTree = "<group>";
+		};
 		CEA5A0AF2697DC6E00F162D0 /* missingbracket */ = {
 			isa = PBXGroup;
 			children = (
@@ -719,6 +732,11 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED4875926B7E4D60086E0F2 /* diffmax */,
+				CED4875626B7E24E0086E0F2 /* zooo */,
+				CED4875326B7DE030086E0F2 /* landcount */,
+				CED4875026B7DBE60086E0F2 /* jmpjmp */,
+				CEA1025D26B7D24A00B4E291 /* cantor */,
 				CE78587826B6605F00CF0519 /* coin1 */,
 				CE78587526B64D0E00CF0519 /* kinship */,
 				CE78587226B591C800CF0519 /* newemployee */,
@@ -1450,6 +1468,38 @@
 			path = longestIncSeq;
 			sourceTree = "<group>";
 		};
+		CED4875026B7DBE60086E0F2 /* jmpjmp */ = {
+			isa = PBXGroup;
+			children = (
+				CED4875126B7DBF70086E0F2 /* jumpjump.cpp */,
+			);
+			path = jmpjmp;
+			sourceTree = "<group>";
+		};
+		CED4875326B7DE030086E0F2 /* landcount */ = {
+			isa = PBXGroup;
+			children = (
+				CED4875426B7DE0E0086E0F2 /* landcount.cpp */,
+			);
+			path = landcount;
+			sourceTree = "<group>";
+		};
+		CED4875626B7E24E0086E0F2 /* zooo */ = {
+			isa = PBXGroup;
+			children = (
+				CED4875726B7E2580086E0F2 /* zoo.cpp */,
+			);
+			path = zooo;
+			sourceTree = "<group>";
+		};
+		CED4875926B7E4D60086E0F2 /* diffmax */ = {
+			isa = PBXGroup;
+			children = (
+				CED4875A26B7E4E30086E0F2 /* diffmax.cpp */,
+			);
+			path = diffmax;
+			sourceTree = "<group>";
+		};
 		CED9BAF7266F0BDD000651FD /* diet */ = {
 			isa = PBXGroup;
 			children = (
@@ -1874,7 +1924,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78587A26B6606C00CF0519 /* coin1.cpp in Sources */,
+				CED4875C26B7F8E20086E0F2 /* jumpjump.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
