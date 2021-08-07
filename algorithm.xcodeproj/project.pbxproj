@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CED4875C26B7F8E20086E0F2 /* jumpjump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED4875126B7DBF70086E0F2 /* jumpjump.cpp */; };
+		CE9039C126BEB42900A36F0A /* stairnumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED157D126BE9AFC007B57E2 /* stairnumber.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -190,6 +190,12 @@
 		CEC680A82663A15F007CB0E3 /* palindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = palindrome.cpp; sourceTree = "<group>"; };
 		CEC680AA2663A15F007CB0E3 /* queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		CEC680AC2663A160007CB0E3 /* lis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lis.cpp; sourceTree = "<group>"; };
+		CED157C826BD143E007B57E2 /* bridgetruck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bridgetruck.cpp; sourceTree = "<group>"; };
+		CED157CB26BE8D20007B57E2 /* lotto.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lotto.cpp; sourceTree = "<group>"; };
+		CED157CE26BE91D5007B57E2 /* mooo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mooo.cpp; sourceTree = "<group>"; };
+		CED157D126BE9AFC007B57E2 /* stairnumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stairnumber.cpp; sourceTree = "<group>"; };
+		CED157D426BEA03C007B57E2 /* tomato.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tomato.cpp; sourceTree = "<group>"; };
+		CED157D726BEAD80007B57E2 /* password.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = password.cpp; sourceTree = "<group>"; };
 		CED4875126B7DBF70086E0F2 /* jumpjump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = jumpjump.cpp; sourceTree = "<group>"; };
 		CED4875426B7DE0E0086E0F2 /* landcount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = landcount.cpp; sourceTree = "<group>"; };
 		CED4875726B7E2580086E0F2 /* zoo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = zoo.cpp; sourceTree = "<group>"; };
@@ -732,6 +738,12 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CED157D626BEAD74007B57E2 /* password */,
+				CED157D326BEA030007B57E2 /* tomatoo */,
+				CED157D026BE9AF0007B57E2 /* stairnumber */,
+				CED157CD26BE91CC007B57E2 /* mooo */,
+				CED157CA26BE8D11007B57E2 /* lottos */,
+				CED157C726BD142F007B57E2 /* bridgetruck */,
 				CED4875926B7E4D60086E0F2 /* diffmax */,
 				CED4875626B7E24E0086E0F2 /* zooo */,
 				CED4875326B7DE030086E0F2 /* landcount */,
@@ -1468,6 +1480,54 @@
 			path = longestIncSeq;
 			sourceTree = "<group>";
 		};
+		CED157C726BD142F007B57E2 /* bridgetruck */ = {
+			isa = PBXGroup;
+			children = (
+				CED157C826BD143E007B57E2 /* bridgetruck.cpp */,
+			);
+			path = bridgetruck;
+			sourceTree = "<group>";
+		};
+		CED157CA26BE8D11007B57E2 /* lottos */ = {
+			isa = PBXGroup;
+			children = (
+				CED157CB26BE8D20007B57E2 /* lotto.cpp */,
+			);
+			path = lottos;
+			sourceTree = "<group>";
+		};
+		CED157CD26BE91CC007B57E2 /* mooo */ = {
+			isa = PBXGroup;
+			children = (
+				CED157CE26BE91D5007B57E2 /* mooo.cpp */,
+			);
+			path = mooo;
+			sourceTree = "<group>";
+		};
+		CED157D026BE9AF0007B57E2 /* stairnumber */ = {
+			isa = PBXGroup;
+			children = (
+				CED157D126BE9AFC007B57E2 /* stairnumber.cpp */,
+			);
+			path = stairnumber;
+			sourceTree = "<group>";
+		};
+		CED157D326BEA030007B57E2 /* tomatoo */ = {
+			isa = PBXGroup;
+			children = (
+				CED157D426BEA03C007B57E2 /* tomato.cpp */,
+			);
+			path = tomatoo;
+			sourceTree = "<group>";
+		};
+		CED157D626BEAD74007B57E2 /* password */ = {
+			isa = PBXGroup;
+			children = (
+				CED157D726BEAD80007B57E2 /* password.cpp */,
+			);
+			path = password;
+			sourceTree = "<group>";
+		};
 		CED4875026B7DBE60086E0F2 /* jmpjmp */ = {
 			isa = PBXGroup;
 			children = (
@@ -1924,7 +1984,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED4875C26B7F8E20086E0F2 /* jumpjump.cpp in Sources */,
+				CE9039C126BEB42900A36F0A /* stairnumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
