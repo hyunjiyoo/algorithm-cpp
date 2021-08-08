@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE9039C126BEB42900A36F0A /* stairnumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED157D126BE9AFC007B57E2 /* stairnumber.cpp */; };
+		CE78587B26BFB46400CF0519 /* bridgetruck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED157C826BD143E007B57E2 /* bridgetruck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1984,7 +1984,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9039C126BEB42900A36F0A /* stairnumber.cpp in Sources */,
+				CE78587B26BFB46400CF0519 /* bridgetruck.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
