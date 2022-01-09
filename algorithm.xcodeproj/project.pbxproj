@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE78587B26BFB46400CF0519 /* bridgetruck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CED157C826BD143E007B57E2 /* bridgetruck.cpp */; };
+		CE9039C426C6553300A36F0A /* connectisland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE9039C326C6553300A36F0A /* connectisland.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -66,6 +66,7 @@
 		CE82BE9A2696878300ED48AA /* primenum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = primenum.cpp; sourceTree = "<group>"; };
 		CE82BEA1269C82AD00ED48AA /* getarea.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = getarea.cpp; sourceTree = "<group>"; };
 		CE82BEA826A2882300ED48AA /* findnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findnum.cpp; sourceTree = "<group>"; };
+		CE9039C326C6553300A36F0A /* connectisland.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = connectisland.cpp; sourceTree = "<group>"; };
 		CEA1025E26B7D25C00B4E291 /* cantor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cantor.cpp; sourceTree = "<group>"; };
 		CEA5A0B02697DC9200F162D0 /* missingbracket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = missingbracket.cpp; sourceTree = "<group>"; };
 		CEA5A0B3269814FC00F162D0 /* printerq.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = printerq.cpp; sourceTree = "<group>"; };
@@ -575,6 +576,14 @@
 			path = findnum;
 			sourceTree = "<group>";
 		};
+		CE9039C226C6552300A36F0A /* connectisland */ = {
+			isa = PBXGroup;
+			children = (
+				CE9039C326C6553300A36F0A /* connectisland.cpp */,
+			);
+			path = connectisland;
+			sourceTree = "<group>";
+		};
 		CEA1025D26B7D24A00B4E291 /* cantor */ = {
 			isa = PBXGroup;
 			children = (
@@ -738,6 +747,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				CE9039C226C6552300A36F0A /* connectisland */,
 				CED157D626BEAD74007B57E2 /* password */,
 				CED157D326BEA030007B57E2 /* tomatoo */,
 				CED157D026BE9AF0007B57E2 /* stairnumber */,
@@ -1984,7 +1994,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE78587B26BFB46400CF0519 /* bridgetruck.cpp in Sources */,
+				CE9039C426C6553300A36F0A /* connectisland.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
