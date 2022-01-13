@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8AAA024278D250F003A04AE /* fillchess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AAA023278D250F003A04AE /* fillchess.cpp */; };
+		C8AAA02A27903C6E003A04AE /* putcard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AAA02927903C6E003A04AE /* putcard.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		C8AAA023278D250F003A04AE /* fillchess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fillchess.cpp; sourceTree = "<group>"; };
+		C8AAA02627902018003A04AE /* arithmetic_num.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = arithmetic_num.cpp; sourceTree = "<group>"; };
+		C8AAA02927903C6E003A04AE /* putcard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = putcard.cpp; sourceTree = "<group>"; };
 		CE00F6E2266DC2F000609EEA /* sushi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sushi.cpp; sourceTree = "<group>"; };
 		CE00F6E9266E0DE400609EEA /* selectnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selectnum.cpp; sourceTree = "<group>"; };
 		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
@@ -267,6 +269,22 @@
 				C8AAA023278D250F003A04AE /* fillchess.cpp */,
 			);
 			path = fillchess;
+			sourceTree = "<group>";
+		};
+		C8AAA02527901FDF003A04AE /* arithmetic_num */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAA02627902018003A04AE /* arithmetic_num.cpp */,
+			);
+			path = arithmetic_num;
+			sourceTree = "<group>";
+		};
+		C8AAA02827903C58003A04AE /* putcard */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAA02927903C6E003A04AE /* putcard.cpp */,
+			);
+			path = putcard;
 			sourceTree = "<group>";
 		};
 		CE00F6E1266DC2DF00609EEA /* sushi */ = {
@@ -756,6 +774,8 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C8AAA02827903C58003A04AE /* putcard */,
+				C8AAA02527901FDF003A04AE /* arithmetic_num */,
 				C8AAA022278D24F1003A04AE /* fillchess */,
 				CE9039C226C6552300A36F0A /* connectisland */,
 				CED157D626BEAD74007B57E2 /* password */,
@@ -2004,7 +2024,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8AAA024278D250F003A04AE /* fillchess.cpp in Sources */,
+				C8AAA02A27903C6E003A04AE /* putcard.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
