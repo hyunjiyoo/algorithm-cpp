@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE9039C426C6553300A36F0A /* connectisland.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE9039C326C6553300A36F0A /* connectisland.cpp */; };
+		C8AAA024278D250F003A04AE /* fillchess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C8AAA023278D250F003A04AE /* fillchess.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8AAA023278D250F003A04AE /* fillchess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fillchess.cpp; sourceTree = "<group>"; };
 		CE00F6E2266DC2F000609EEA /* sushi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sushi.cpp; sourceTree = "<group>"; };
 		CE00F6E9266E0DE400609EEA /* selectnum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = selectnum.cpp; sourceTree = "<group>"; };
 		CE2641EF26647006001E2A7C /* budget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = budget.cpp; sourceTree = "<group>"; };
@@ -260,6 +261,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8AAA022278D24F1003A04AE /* fillchess */ = {
+			isa = PBXGroup;
+			children = (
+				C8AAA023278D250F003A04AE /* fillchess.cpp */,
+			);
+			path = fillchess;
+			sourceTree = "<group>";
+		};
 		CE00F6E1266DC2DF00609EEA /* sushi */ = {
 			isa = PBXGroup;
 			children = (
@@ -747,6 +756,7 @@
 		CEC67EDB2663A062007CB0E3 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				C8AAA022278D24F1003A04AE /* fillchess */,
 				CE9039C226C6552300A36F0A /* connectisland */,
 				CED157D626BEAD74007B57E2 /* password */,
 				CED157D326BEA030007B57E2 /* tomatoo */,
@@ -1994,7 +2004,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9039C426C6553300A36F0A /* connectisland.cpp in Sources */,
+				C8AAA024278D250F003A04AE /* fillchess.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
