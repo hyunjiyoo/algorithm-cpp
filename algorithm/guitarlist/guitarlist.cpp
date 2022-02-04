@@ -3,12 +3,11 @@
 
 int n, s, m, r;
 int v[50];
-int dp[51][1'001];
+bool dp[51][1'001];
 bool able;
 
-
 void init() {
-    std::fill_n((int*)dp, 51 * 1'001, -1);
+    std::fill_n((bool*)dp, 51 * 1'001, false);
     able = false;
     r = 0;
 }
@@ -21,23 +20,22 @@ void input() {
 }
 
 
-int solve(int idx = 0, int vol = s) {
+void solve(int idx = 0, int vol = s) {
     
     if (vol < 0 || vol > m)
-        return 0;
+        return;
     
     if (idx == n) {
         r = std::max(r, vol);
         able = true;
-        return 0;
+        return;
     }
     
-    if (dp[idx + 1][vol] == -1) {
-        dp[idx + 1][vol] = solve(idx + 1, vol + v[idx]);
-        dp[idx + 1][vol] += solve(idx + 1, vol - v[idx]);
+    if (!dp[idx + 1][vol]) {
+        dp[idx + 1][vol] = true;
+        solve(idx + 1, vol + v[idx]);
+        solve(idx + 1, vol - v[idx]);
     }
-    
-    return dp[idx + 1][vol];
 }
 
 
